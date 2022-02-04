@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["document","console","log"],"mappings":"AAAIA,UACAC,QAAQC,IAAIF","file":"script.js","sourcesContent":["if (document){\r\n    console.log(document)\r\n}"]}
