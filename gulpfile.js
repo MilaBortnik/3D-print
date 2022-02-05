@@ -1,4 +1,4 @@
-const { src, dest, series} = require('gulp')
+const { src, dest, watch, series} = require('gulp')
 const terser = require('gulp-terser')
 const plumber = require('gulp-plumber')
 const sourcemaps = require ('gulp-sourcemaps')
@@ -12,6 +12,10 @@ const pipeline = require('readable-stream').pipeline
 const uglify = require('gulp-uglify-es').default
 const deleted= require('gulp-deleted')
 const gulp = require('gulp')
+const server = require ('browser-sync')
+const del = require ('del')
+
+
  
 
 
@@ -31,7 +35,7 @@ function js() {
     )
 }
     function css (){
-   return src('./source/sass/**/*.sass')
+   return src('./source/scss/**/*.scss')
    .pipe(plumber())
    .pipe(sourcemaps.init())
    .pipe(sass())
@@ -39,7 +43,7 @@ function js() {
    .pipe(csso())
    .pipe(rename('.style.min.css'))
    .pipe(sourcemaps.write('./'))
-   .pipe(dest('build/sass')) 
+   .pipe(dest('build/css')) 
 }
 
 function cssNomin (){
@@ -47,7 +51,7 @@ function cssNomin (){
     .pipe(plumber())
     .pipe(sass())
     .pipe(autoprefixer())
-    .pipe(dest('build/sass')) 
+    .pipe(dest('build/css')) 
  }
 
  function images (){
@@ -76,8 +80,24 @@ function cssNomin (){
     })
     .pipe(dest('build'))
 }
-const clean = function() {
-    return gulp.src('./source').pipe(deleted({src: './source', dest: './build', patterns:['**/*']})).pipe(gulp.dest('./build'))
+function serve (){
+    server.init({
+        server: "build/",
+        notify: false,
+        open: true,
+        cors: true,
+        ui: false
+    })
+    watch('./source/scss/**/*.scss', series(css, cssNomin, refresh ))
+    watch('./source/*.html', series(html, refresh))
+}
+function refresh(done){
+    server.reload()
+    done()
+}
+function delet(done){
+    del.sync('./build/*/')
+    done()
 }
 
 
@@ -88,7 +108,6 @@ exports ['css-nomin'] = cssNomin
 exports.images = images
 exports.sprite = sprite
 exports.start = series(
-    clean,
     images,
     copy,
     html,
@@ -97,3 +116,5 @@ exports.start = series(
     sprite,
     js
 )
+exports.serve = serve
+exports.delet = delet

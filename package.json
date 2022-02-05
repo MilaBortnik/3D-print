@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MilaBortnik/3D-print#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.7",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
