@@ -8,170 +8,235 @@
 </head>
 <body>
     <header class="header">
-        <a href="index.html">
-            <img src="./img/index/logo.png" alt="logo">
+        <a class="logo header__logo" href="index.html">
+            <img class="logo__img" src="./img/index/logo.png" alt="logo">
         </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="printing.html">3D-печать</a>
+        <nav class="menu-header">
+            <ul class="menu-header__list">
+                <li class="menu-header_list-item">
+                    <a class="menu-header__link menu-header__link--active" href="printing.html">3D-печать</a>
                 </li>
-                <li>
-                    <a href="modeling.html">3D-моделирование </a>
+                <li class="menu-header_list-item">
+                    <a class="menu-header__link" href="modeling.html">3D-моделирование </a>
                 </li>
-                <li>
-                    <a href="contacts.html">Контакты</a>
+                <li class="menu-header_list-item">
+                    <a class="menu-header__link"  href="contacts.html">Контакты</a>
                 </li>
             </ul>
         </nav>
-        <button>Рассчитать стоимость</button>
+        <div class="button">
+            <button class="button__print">Рассчитать стоимость</button>
+         </div>    
     </header>
-    <main>
-        <section>
-            <h1>Услуги <span>3D</span>-печати</h1>
-            <p>Используем готовую модель или поможем с проектированием</p>
-            <p>Производим как единичные экземпляры, так и выпускаем тиражи</p>
-            <p>Печатаем по технологии FDM и SLA</p>
-            <img src="./img/index/headerimg.png" alt="3D-PRINT">
-        </section>
-        <section>
-            <h2>Изготовим что угодно</h2>
-            <img src="./img/index/detail1.png" alt="">
-            <h3>Промышленные прототипы</h3>
-            <p>Для испытания образцов перед началом производства</p>
-            <h2>Изготовим что угодно</h2>
-            <img src="./img/index/detail2.png" alt="">
-            <h3>Архитектурные макеты</h3>
-            <p>Для наглядной презентации ваших проектов</p>
-            <img src="./img/index/detail3.png" alt="">
-            <h3>Ювелирные изделия</h3>
-            <p>Для придания индивидуального стиля</p>
-            <img src="./img/index/detail4.png" alt="">
-            <h3>Скульптуры</h3>
-            <p>Для творческой декорации интерьера</p>
-            <img src="./img/index/detail5.png" alt="">
-            <h3>Инженерные детали</h3>
-            <p>Для воплощения в жизнь смелых идей</p>
-            <img src="./img/index/detail6.png" alt="">
-            <h3>Презентационные макеты</h3>
-            <p>Для демонстрации на выставках или на витринах</p>
-            <img src="./img/index/detail7.png" alt="">
-            <h3>Медицинские и образовательные модели</h3>
-            <p>Для использования в качестве учебных пособий</p>
-            <img src="./img/index/detail8.png" alt="">
-            <h3>Автозапчасти</h3>
-            <p>Для замены редких или снятых с производства деталей</p>
-            <img src="./img/index/deteil9.png" alt="">
-            <h3>Сувенирная продукция</h3>
-            <p>Для создания необычных и запоминающихся даров</p>
-        </section>
-        <section>
-            <h2>Как мы работаем</h2>
-            <img src="./img/index/peoplemain.png" alt="">
-            <p>Составление заявки на просчёт стоимости и сроков</p>
-            <p>Предоплата работы</p>
-            <p>Создание и согласование 3D-модели</p>
-            <p>Предоплата работы</p>
-            <p>Отправка клиенту после оплаты остатка</p>
-        </section>
-        <section>
-            <h2>Рассчитать стоимость <span>3D</span>-печати</h2>
+    <main class="main">
+        <section class="about">
             <div>
-            <a href="">Материалы</a>
-            <a href="">Принтеры</a>
+                <h1 class="title about__title">Услуги <span>3D</span>-печати</h1>
+                <div>
+                    <p class="about__text">Используем готовую модель или поможем с проектированием</p>
+                    <p class="about__text">Производим как единичные экземпляры, так и выпускаем тиражи</p>
+                    <p class="about__text">Печатаем по технологии FDM и SLA</p>     
+                </div>       
+            </div>
+            <div class="picture"> 
+                <img class="pictures__img" src="./img/index/headerimg.png" alt="3D-PRINT">
+            </div>          
+        </section>
+        <section class="catalog">
+            <h2 class="subtitle catalog__subtitle">Изготовим что угодно</h2>
+            <div class="products"> 
+                <div>
+                    <img class="products_img" src="./img/index/detail1.png" alt="">
+                    <h2 class="products__subtitle" >Промышленные прототипы</h2>
+                    <p class="products__text" >Для испытания образцов перед началом производства</p>
+                </div>
+                <div>
+                    <img  class="products_img" src="./img/index/detail2.png" alt="">
+                    <h2 class="products__subtitle">Архитектурные макеты</h2>
+                    <p class="products__text">Для наглядной презентации ваших проектов</p>
+                </div>
+                <div>
+                    <img  class="products_img" src="./img/index/detail3.png" alt="">
+                    <h2 class="products__subtitle">Ювелирные изделия</h2>
+                    <p>Для придания индивидуального стиля</p>
+                </div>
+                <div>
+                    <img  class="products_img" src="./img/index/detail4.png" alt="">
+                    <h2 class="products__subtitle">Скульптуры</h2>
+                    <p class="products__text">Для творческой декорации интерьера</p>
+                </div>
+                <div>
+                    <img class="products_img" src="./img/index/detail5.png" alt="">
+                    <h2 class="products__subtitle">Инженерные детали</h2>
+                    <p class="products__text">Для воплощения в жизнь смелых идей</p>
+                </div>
+                <div>
+                    <img class="products_img" src="./img/index/detail6.png" alt="">
+                    <h2 class="products__subtitle">Презентационные макеты</h2>
+                    <p class="products__text">Для демонстрации на выставках или на витринах</p>
+                </div>
+                <div>
+                    <img class="products_img" src="./img/index/detail7.png" alt="">
+                    <h2 class="products__subtitle">Медицинские и образовательные модели</h2>
+                    <p class="products__text">Для использования в качестве учебных пособий</p>
+                </div>
+                <div>
+                    <img class="products_img" src="./img/index/detail8.png" alt="">
+                    <h2 class="products__subtitle">Автозапчасти</h2>
+                    <p class="products__text">Для замены редких или снятых с производства деталей</p>
+                </div>
+                <div>
+                    <img class="products_img" src="./img/index/deteil9.png" alt="">
+                    <h2 class="products__subtitle">Сувенирная продукция</h2>
+                    <p class="products__text">Для создания необычных и запоминающихся даров</p>
+                </div>      
+            </div>    
+        </section>
+        <section class="work">
+            <h2 class="subtitle work__subtitle">Как мы работаем</h2>
+            <div class="piople">
+                <img class="piople__img" src="./img/index/peoplemain.png" alt="">    
             </div>
             <div>
-                 <ul>
-                <li>ABS PRO (FDM)</li>
-                <li>PLA (FDM)</li>
-                <li>ELASTAN (FDM)</li>
-                <li>COPET (FDM)</li>
-                <li>NYLON CARBON (FDM)</li>
-                <li>TANGO (POLYJET)</li>
-                <li>VERO WHITE (POLYJET)</li>
-                <li>VERO CLEAR (POLYJET)</li>
+                <p class="work__text">Составление заявки на просчёт стоимости и сроков</p>
+                <div> 
+                <p class="work__text">Предоплата работы</p>
+                <p class="work__text">Предоплата работы</p>
+                </div>
+                <div> 
+                 <p class="work__text">Создание и согласование 3D-модели</p>          
+                <p class="work__text">Отправка клиенту после оплаты остатка</p>
+                </div>           
+            </div>            
+        </section>
+        <section class="price">
+            <h2 class="subtitle price__subtitle">Рассчитать стоимость <span>3D</span>-печати</h2>
+            <div class="parameters">
+            <a class="parameters__link" href="">Материалы</a>
+            <a class="parameters__link" href="">Принтеры</a>
+            </div>
+            <div class="parameters-blok" >
+                 <ul class="parameters-blok__list">
+                <li class="parameters-blok__item">ABS PRO (FDM)</li>
+                <li class="parameters-blok__item">PLA (FDM)</li>
+                <li class="parameters-blok__item">ELASTAN (FDM)</li>
+                <li class="parameters-blok__item">COPET (FDM)</li>
+                <li class="parameters-blok__item">NYLON CARBON (FDM)</li>
+                <li class="parameters-blok__item">TANGO (POLYJET)</li>
+                <li class="parameters-blok__item">VERO WHITE (POLYJET)</li>
+                <li class="parameters-blok__item">VERO CLEAR (POLYJET)</li>
                 </ul> 
             </div>
-           <div> 
-            <ul>
-                <li> <button></button></li>
-                <li> <button></button></li>
-                <li> <button></button></li>
-                <li> <button></button></li>
-                <li> <button></button></li>
-                <li> <button></button></li>
-                <li> <button></button></li>
-                <li> <button></button></li>
+           <div class="parameters-choice" > 
+            <ul class="parameters-choice__list">
+                <li class="parameters-choice__item"> 
+                    <button class="parameters-choice__button"></button>
+                </li>
+                <li class="parameters-choice__item"> 
+                    <button class="parameters-choice__button"></button>
+                </li>
+                <li class="parameters-choice__item">
+                     <button class="parameters-choice__button"></button>
+                </li>
+                <li class="parameters-choice__item"> 
+                    <button class="parameters-choice__button"></button>
+                </li>
+                <li class="parameters-choice__item">
+                     <button class="parameters-choice__button"></button>
+                    </li>
+                <li class="parameters-choice__item"> 
+                    <button class="parameters-choice__button"></button>
+                </li>
+                <li class="parameters-choice__item">
+                     <button class="parameters-choice__button"></button>
+                    </li>
+                <li class="parameters-choice__item">
+                     <button class="parameters-choice__button"></button>
+                </li>
             </ul>
            </div> 
         </section>
-            <div>
-                <h2>Шаг 1 из 3</h2>
-                <div>
-                    <p> <input type="file" name="infor"></p>
-                    <p>Кликните, чтобы прикрепить 3D модель или фото</p>
+            <div class="popup-first">
+                <h2 class="popup-first__title">Шаг 1 из 3</h2>
+                <div class="sent">
+                    <p class="sent-input"> 
+                        <input class="sent-input__file" type="file" name="infor">
+                    </p>
+                    <p class="sent__text">Кликните, чтобы прикрепить 3D модель или фото</p>
                 </div>
-                <div>
+                <div class="popup-parameters">
                     <div>
-                        <p>Допустимые расширения:</p>
-                        <p>.jpg, .jpeg, .png, .gif, .pdf, .psd, .ai, .max, .cdr, .3ds, .stl, .igs, .model, .mxp, .obj, .wrl, .3dm, .fbx, .matpart, .matamx, .zip, .rar, .7z, .skp, .dae, .ply, .magics, .mgx, .x3d, .x3dv, .3mf, .stp, .step, .prt, .zpr</p>
+                        <p class="popup-parameters__text">Допустимые расширения:</p>
+                        <p class="popup-parameters__text">.jpg, .jpeg, .png, .gif, .pdf, .psd, .ai, .max, .cdr, .3ds, .stl, .igs, .model, .mxp, .obj, .wrl, .3dm, .fbx, .matpart, .matamx, .zip, .rar, .7z, .skp, .dae, .ply, .magics, .mgx, .x3d, .x3dv, .3mf, .stp, .step, .prt, .zpr</p>
                     </div>
                     <div>
-                        <p>Максимальный размер файла:</p>
-                        <p>10 Мб</p>
+                        <p class="popup-parameters__text">Максимальный размер файла:</p>
+                        <p class="popup-parameters__text">10 Мб</p>
                     </div>
                 </div>
-               <div>
-                   <textarea name="link"></textarea>
+               <div class="add-input">
+                   <textarea class="add-input__link" name="link"></textarea>
                </div>
-               <div>
-                   <button>Назад</button>
-                   <button>Далее</button>
+               <div class="popup-button">
+                   <button class="popup-button__back">Назад</button>
+                   <button class="popup-button__next">Далее</button>
                </div>
             </div>
-            <section>
+            <section class="question">
                 <div>
-                    <h2>Остались вопросы?</h2>
-                    <p>Оформите заявку на сайте и мы свяжемся с вами в ближайшее время.</p>
+                    <h2 class="subtitle question__subtitle">Остались вопросы?</h2>
+                    <p class="question__text" >Оформите заявку на сайте и мы свяжемся с вами в ближайшее время.</p>
                 </div>        
-                <div>
-                    <input type="text" name="" value="">
-                    <input type="text">
+                <div class="form-information">
+                    <input class="form-information__name" type="text" name="" value="">
+                    <input class="form-information__tel" type="text" name="" value="">
                 </div>
-                <div>
-                    <textarea name="text"></textarea>
+                <div class="form-question">
+                    <textarea class="form-question__write" name="text"></textarea>
                 </div>
-                <div>
-                    <button type="submit">Отправить</button>
-                    <p>Нажимая на кнопку, вы соглашаетесь с <a href="">Политикой конфиденциальности</a> </p>
+                <div class="agreement-question">
+                    <button class="agreement-question__sent" type="submit">Отправить</button>
+                    <p class="agreement-question__text">Нажимая на кнопку, вы соглашаетесь с <a href="">Политикой конфиденциальности</a> </p>
                 </div>
             </section>
-            <footer>
-                <div>
-                    <a href="index.html">
-                        <img src="./img/index/logo.png" alt="logo">
-                    </a>
-                </div>
-                <div>
-                    <p>3D-печать</p>
-                    <p>3D-моделирование</p>
-                    <p>Контакты</p>
-                </div>
-                <div>
-                    <p>+38 (097) 999-99-99</p>
-                    <div>
-                        <p>г. Киев, ул. Гагарина 25/68</p>
-                        <a href="">pochta@gmail.com</a>
+            <footer class="footer">
+                <div>  
+                    <a class="logo footer__logo" href="index.html">
+                    <img src="./img/index/logo.png" alt="logo">
+                </a>
+                <nav class="menu-footer">
+                    <ul class="menu-footer__list">
+                        <li class="menu-footer_list-item">
+                            <a class="menu-footer__link" href="printing.html">3D-печать</a>
+                        </li>
+                        <li class="menu-footer_list-item">
+                            <a class="menu-footer__link" href="modeling.html">3D-моделирование </a>
+                        </li>
+                        <li class="menu-footer_list-item">
+                            <a class="menu-footer__link"  href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>            
+            </div>          
+                <div class="addres-footer">
+                    <p class="addres-footer__tel">+38 (097) 999-99-99</p>
+                      <div>
+                        <p class="addres-footer__town">г. Киев, ул. Гагарина 25/68</p>
+                        <a class="addres-footer__mail">pochta@gmail.com</a>
+                        <div> 
+                            <a  class="addres-footer__video" href="#"></a>
+                            <a  class="addres-footer__facebook" href="#"></a>
+                        </div>                    
                     </div>
-                    <div>
-                        <a href="">@2021. Все права защищены</a>
-                        <a href="">Сделано в Webnauts c</a>
-                    </div>
                 </div>
+                    <div class="link-footer">
+                        <a class="link-footer__item" href="#">@2021. Все права защищены</a>
+                        <a class="link-footer__item" href="#">Сделано в Webnauts c</a>
+                    </div>
+                
             </footer>
     </main>
-    <footer>
-        
+    <footer>        
     </footer>
 </body>
 </html>
