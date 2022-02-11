@@ -35,19 +35,19 @@ function js() {
     )
 }
     function css (){
-   return src('./source/scss/**/*.scss')
+   return src('./source/scss/style.scss')
    .pipe(plumber())
    .pipe(sourcemaps.init())
    .pipe(sass())
    .pipe(autoprefixer())
    .pipe(csso())
-   .pipe(rename('.style.min.css'))
+   .pipe(rename('style.min.css'))
    .pipe(sourcemaps.write('./'))
    .pipe(dest('build/css')) 
 }
 
 function cssNomin (){
-    return src('./source/sass/**/*.sass')
+    return src('./source/sass/**/*.scss')
     .pipe(plumber())
     .pipe(sass())
     .pipe(autoprefixer())
@@ -55,7 +55,7 @@ function cssNomin (){
  }
 
  function images (){
-     return src('./source/img/**/*.{png,jpg,jpeg}')
+     return src('./source/img/**/*.{png,jpg,jpeg,svg}')
      .pipe(imagemin ([
         imagemin.mozjpeg({quality: 75, progressive: true}),
         imagemin.optipng({optimizationLevel: 3}),
@@ -63,7 +63,7 @@ function cssNomin (){
      .pipe(dest('build/img'))
  }
  function sprite(){
-     return src('./source/img/icon-*.svg')
+     return src('./source/img/**/*.svg')
      .pipe(imagemin([imagemin.svgo()]))
      .pipe(svgstore({
          inlineSvg:true
@@ -108,13 +108,15 @@ exports ['css-nomin'] = cssNomin
 exports.images = images
 exports.sprite = sprite
 exports.start = series(
+    delet,
     images,
     copy,
     html,
     css,
     cssNomin,
     sprite,
-    js
+    js,
+    serve
 )
 exports.serve = serve
 exports.delet = delet

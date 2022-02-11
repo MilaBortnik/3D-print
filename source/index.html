@@ -5,230 +5,243 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D-PRINT</title>
+    <link rel="stylesheet" href="css/style.min.CSS">
 </head>
 <body>
-    <header class="header">
-        <a class="logo header__logo" href="index.html">
-            <img class="logo__img" src="./img/index/logo.png" alt="logo">
-        </a>
-        <nav class=" menu header__menu">
-            <ul class="menu__headr-list">
-                <li class="menu__header-item">
-                    <a class="menu__header-link menu__header-link--active" href="printing.html">3D-печать</a>
-                </li>
-                <li class="menu__header-item">
-                    <a class="menu__header-link" href="modeling.html">3D-моделирование </a>
-                </li>
-                <li class="menu__header-item">
-                    <a class="menu__header-link"  href="contacts.html">Контакты</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="button">
-            <button class="button__print">Рассчитать стоимость</button>
-         </div>    
-    </header>
-    <main class="main">
-        <section class="about">
-            <div>
-                <h1 class="main-title about__main-title">Услуги <span>3D</span>-печати</h1>
-                <ul class="about-list">
-                    <li> 
-                        <p class="about-list__item">Используем готовую модель или поможем с проектированием</p>
-                    </li>
-                    <li>
-                        <p class="about-list__item">Производим как единичные экземпляры, так и выпускаем тиражи</p>
-                    </li>
-                   <li>
-                    <p class="about-list__item">Печатаем по технологии FDM и SLA</p>
-                   </li>                      
-                </ul>       
-            </div>
-            <div class="picture"> 
-                <img class="pictures__img" src="./img/index/headerimg.png" alt="3D-PRINT">
-            </div>          
-        </section>
-        <section class="catalog">
-            <h2 class="title catalog__title">Изготовим что угодно</h2>
-            <ul class="products"> 
-                <li class="products__item">
-                    <img class="products_img" src="./img/index/detail1.png" alt="">
-                    <h2 class="products__subtitle" >Промышленные прототипы</h2>
-                    <p class="products__text" >Для испытания образцов перед началом производства</p>
-                </li>
-                <li class="products__item">
-                    <img  class="products_img" src="./img/index/detail2.png" alt="">
-                    <h2 class="products__subtitle">Архитектурные макеты</h2>
-                    <p class="products__text">Для наглядной презентации ваших проектов</p>
-                </li>
-                <li class="products__item">
-                    <img  class="products_img" src="./img/index/detail3.png" alt="">
-                    <h2 class="products__subtitle">Ювелирные изделия</h2>
-                    <p>Для придания индивидуального стиля</p>
-                </li>
-                <li class="products__item">
-                    <img  class="products_img" src="./img/index/detail4.png" alt="">
-                    <h2 class="products__subtitle">Скульптуры</h2>
-                    <p class="products__text">Для творческой декорации интерьера</p>
-                </li>
-                <li class="products__item">
-                    <img class="products_img" src="./img/index/detail5.png" alt="">
-                    <h2 class="products__subtitle">Инженерные детали</h2>
-                    <p class="products__text">Для воплощения в жизнь смелых идей</p>
-                </li>
-                <li class="products__item">
-                    <img class="products_img" src="./img/index/detail6.png" alt="">
-                    <h2 class="products__subtitle">Презентационные макеты</h2>
-                    <p class="products__text">Для демонстрации на выставках или на витринах</p>
-                </li>
-                <li class="products__item">
-                    <img class="products_img" src="./img/index/detail7.png" alt="">
-                    <h2 class="products__subtitle">Медицинские и образовательные модели</h2>
-                    <p class="products__text">Для использования в качестве учебных пособий</p>
-                </li>
-                <li class="products__item">
-                    <img class="products_img" src="./img/index/detail8.png" alt="">
-                    <h2 class="products__subtitle">Автозапчасти</h2>
-                    <p class="products__text">Для замены редких или снятых с производства деталей</p>
-                </li>
-                <li class="products__item">
-                    <img class="products_img" src="./img/index/deteil9.png" alt="">
-                    <h2 class="products__subtitle">Сувенирная продукция</h2>
-                    <p class="products__text">Для создания необычных и запоминающихся даров</p>
-                </li>      
-            </ul>    
-        </section>
-        <section class="work">
-            <h2 class="title work__title">Как мы работаем</h2>
-            <div class="people">
-                <img class="people__img" src="./img/index/peoplemain.png" alt="">    
-            </div>
-            <ul class="work__lisr">
-                <li class="work__item">
-                    <p class="work__text">Составление заявки на просчёт стоимости и сроков</p>
-                </li>
-                <li class="work__item">
-                    <p class="work__text">Предоплата работы</p>
-                </li>
-                <li class="work__item">
-                    <p class="work__text">Предоплата работы</p> 
-                </li>
-                <li class="work__item">
-                    <p class="work__text">Создание и согласование 3D-модели</p>
-                </li>
-                <li class="work__item">
-                    <p class="work__text">Отправка клиенту после оплаты остатка</p> 
-                </li>            
-            </ul>            
-        </section>
-        <section class="price">
-            <h2 class="title price__title">Рассчитать стоимость <span>3D</span>-печати</h2>
-            <div class="parameters">
-            <a class="parameters__link" href="">Материалы</a>
-            <a class="parameters__link" href="">Принтеры</a>
-            </div>        
-                 <ul class="parameters-list">
-                     <li class="">
-                        <details>
-                            <summary>ABS PRO (FDM)</summary>
-                            <p>ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                        </details>
-                     </li>
-                     <li>
-                        <details>
-                            <summary>PLA (FDM)</summary>
-                            <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                        </details>
-                     </li>
-                     <li>
-                        <details>
-                            <summary>ELASTAN (FDM)</summary>
-                            <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                        </details>
-                     </li>
-                     <li>
-                        <details>
-                            <summary>COPET (FDM)</summary>
-                            <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                        </details>
-                     </li>
-                     <li>
-                        <details>
-                            <summary>NYLON CARBON (FDM)</summary>
-                            <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                        </details>
-                     </li>
-                     <li>
-                        <details>
-                            <summary>TANGO (POLYJET)</summary>
-                            <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                        </details>
-                     </li>
-                     <li>
-                        <details>
-                            <summary>VERO WHITE (POLYJET)</summary>
-                            <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                        </details>
-                     </li>
-                     <li>
-                        <details>
-                            <summary>VERO WHITE (POLYJET)</summary>
-                            <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                        </details>
-                     </li>
-                     <li>
-                        <details>
-                            <summary>VERO CLEAR (POLYJET)</summary>
-                            <p> </p>
-                        </details>
-                     </li>      
-                </ul>     
-        </section>
-            <div class="step-first">
-                <h1 class="step-first__title">Шаг 1 из 3</h1>
-                <form class="step" action="#">
-                    <div> 
-                        <p class="sent-input"> 
-                            <input class="sent-input__file" type="file" name="infor">
-                        </p>
-                        <p class="sent__text">Кликните, чтобы прикрепить 3D модель или фото</p> 
-                    </div>                    
-                <div class="step-parameters">
-                    <div>
-                        <p class="popup-parameters__text">Допустимые расширения:</p>
-                        <p class="popup-parameters__text">.jpg, .jpeg, .png, .gif, .pdf, .psd, .ai, .max, .cdr, .3ds, .stl, .igs, .model, .mxp, .obj, .wrl, .3dm, .fbx, .matpart, .matamx, .zip, .rar, .7z, .skp, .dae, .ply, .magics, .mgx, .x3d, .x3dv, .3mf, .stp, .step, .prt, .zpr</p>
-                    </div>
-                    <div>
-                        <p class="popup-parameters__text">Максимальный размер файла:</p>
-                        <p class="popup-parameters__text">10 Мб</p>
-                    </div>
-                </div>
-               <div class="add-input">
-                   <textarea class="add-input__link" name="link"></textarea>
-               </div>
-               <div class="popup-button">
-                   <button class="popup-button__back">Назад</button>
-                   <button class="popup-button__next">Далее</button>
-               </div>
-            </form>
-            </div>              
-            <section class="question-section">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-wrapper">
+                <a class="logo header__logo" href="index.html">
+                    <img class="logo__img" src="./img/index/logo.png" alt="logo">
+                </a>
+                <nav class=" menu header__menu">
+                    <ul class="menu__headr-list">
+                        <li class="menu__header-item">
+                            <a class="menu__header-link menu__header-link--active" href="printing.html">3D-печать</a>
+                        </li>
+                        <li class="menu__header-item">
+                            <a class="menu__header-link" href="modeling.html">3D-моделирование </a>
+                        </li>
+                        <li class="menu__header-item">
+                            <a class="menu__header-link"  href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="button">
+                    <button class="button__print">Рассчитать стоимость</button>
+                 </div>    
+            </div>       
+        </header>
+        <div class="main-wrapper"> 
+            <section class="about">
                 <div>
-                    <h2 class="subtitle question-section__subtitle">Остались вопросы?</h2>
-                    <p class="question__text" >Оформите заявку на сайте и мы свяжемся с вами в ближайшее время.</p>
-                </div>        
-                <form class="information" action="#">
-                    <div>
-                        <input class="information__name" type="text" name="" value="">
-                        <input class="information__tel" type="text" name="" value="">              
-                        <textarea class="information__write" name="text"></textarea>    
-                    </div>                    
-                <div class="agreement-question">
-                    <button class="agreement-question__sent" type="submit">Отправить</button>
-                    <p class="agreement-question__text">Нажимая на кнопку, вы соглашаетесь с <a href="">Политикой конфиденциальности</a> </p>
+                    <h1 class="about-title"> Услуги <br> <span>3D</span>-печати</h1>
+                    <ul class="about-list">
+                        <li class="about-list__item"> 
+                            <p class="about-list__text">Используем готовую модель или поможем с проектированием</p>
+                        </li>
+                        <li class="about-list__item">
+                            <p class="about-list__text">Производим как единичные экземпляры, так и выпускаем тиражи</p>
+                        </li>
+                       <li class="about-list__item">
+                        <p class="about-list__text">Печатаем по технологии FDM и SLA</p>
+                       </li>                      
+                    </ul>       
                 </div>
-            </form>
+                <div class="about-picture"> 
+                    <img class="about-picture__img" src="./img/index/headerimg.png" alt="3D-PRINT">
+                </div>         
             </section>
+        </div> 
+    </div> 
+    <main class="main"> 
+            <section class="catalog">
+                <h2 class="title catalog__title">Изготовим что угодно</h2>
+                <ul class="products"> 
+                    <li class="products__item">
+                        <img class="products_img" src="./img/index/detail1.png" alt="">
+                        <h2 class="products__subtitle" >Промышленные прототипы</h2>
+                        <p class="products__text" >Для испытания образцов перед началом производства</p>
+                    </li>
+                    <li class="products__item">
+                        <img  class="products_img" src="./img/index/detail2.png" alt="">
+                        <h2 class="products__subtitle">Архитектурные макеты</h2>
+                        <p class="products__text">Для наглядной презентации ваших проектов</p>
+                    </li>
+                    <li class="products__item">
+                        <img  class="products_img" src="./img/index/detail3.png" alt="">
+                        <h2 class="products__subtitle">Ювелирные изделия</h2>
+                        <p>Для придания индивидуального стиля</p>
+                    </li>
+                    <li class="products__item">
+                        <img  class="products_img" src="./img/index/detail4.png" alt="">
+                        <h2 class="products__subtitle">Скульптуры</h2>
+                        <p class="products__text">Для творческой декорации интерьера</p>
+                    </li>
+                    <li class="products__item">
+                        <img class="products_img" src="./img/index/detail5.png" alt="">
+                        <h2 class="products__subtitle">Инженерные детали</h2>
+                        <p class="products__text">Для воплощения в жизнь смелых идей</p>
+                    </li>
+                    <li class="products__item">
+                        <img class="products_img" src="./img/index/detail6.png" alt="">
+                        <h2 class="products__subtitle">Презентационные макеты</h2>
+                        <p class="products__text">Для демонстрации на выставках или на витринах</p>
+                    </li>
+                    <li class="products__item">
+                        <img class="products_img" src="./img/index/detail7.png" alt="">
+                        <h2 class="products__subtitle">Медицинские и образовательные модели</h2>
+                        <p class="products__text">Для использования в качестве учебных пособий</p>
+                    </li>
+                    <li class="products__item">
+                        <img class="products_img" src="./img/index/detail8.png" alt="">
+                        <h2 class="products__subtitle">Автозапчасти</h2>
+                        <p class="products__text">Для замены редких или снятых с производства деталей</p>
+                    </li>
+                    <li class="products__item">
+                        <img class="products_img" src="./img/index/deteil9.png" alt="">
+                        <h2 class="products__subtitle">Сувенирная продукция</h2>
+                        <p class="products__text">Для создания необычных и запоминающихся даров</p>
+                    </li>      
+                </ul>    
+            </section>
+            <section class="work">
+                <h2 class="title work__title">Как мы работаем</h2>
+                <div class="work-picture">
+                    <img class="work-picture__img" src="./img/index/peoplemain.png" alt="">    
+                </div>
+                <ul class="work__list">
+                    <li class="work__item">
+                        <p class="work__text">Составление заявки на просчёт стоимости и сроков</p>
+                    </li>
+                    <li class="work__item">
+                        <p class="work__text">Предоплата работы</p>
+                    </li>
+                    <li class="work__item">
+                        <p class="work__text">Предоплата работы</p> 
+                    </li>
+                    <li class="work__item">
+                        <p class="work__text">Создание и согласование 3D-модели</p>
+                    </li>
+                    <li class="work__item">
+                        <p class="work__text">Отправка клиенту после оплаты остатка</p> 
+                    </li>            
+                </ul>            
+            </section>
+            <section class="price">
+                <h2 class="title price__title">Рассчитать стоимость <span>3D</span>-печати</h2>
+                <div class="parameters">
+                <a class="parameters__link" href="">Материалы</a>
+                <a class="parameters__link" href="">Принтеры</a>
+                </div>        
+                     <ul class="parameters__list">
+                         <li class="parameters__list-item">
+                            <details>
+                                <summary>ABS PRO (FDM)</summary>
+                                <p>ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                            </details>
+                         </li>
+                         <li class="parameters__list-item">
+                            <details class="parameters__list-text">
+                                <summary>PLA (FDM)</summary>
+                                <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                            </details>
+                         </li>
+                         <li class="parameters__list-item">
+                            <details class="parameters__list-text">
+                                <summary>ELASTAN (FDM)</summary>
+                                <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                            </details>
+                         </li>
+                         <li class="parameters__list-item">
+                            <details class="parameters__list-text">
+                                <summary>COPET (FDM)</summary>
+                                <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                            </details>
+                         </li>
+                         <li class="parameters__list-item">
+                            <details class="parameters__list-text">
+                                <summary>NYLON CARBON (FDM)</summary>
+                                <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                            </details>
+                         </li>
+                         <li class="parameters__list-item">
+                            <details class="parameters__list-text">
+                                <summary>TANGO (POLYJET)</summary>
+                                <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                            </details>
+                         </li>
+                         <li class="parameters__list-item">
+                            <details class="parameters__list-text">
+                                <summary>VERO WHITE (POLYJET)</summary>
+                                <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                            </details>
+                         </li>
+                         <li class="parameters__list-item">
+                            <details class="parameters__list-text">
+                                <summary>VERO WHITE (POLYJET)</summary>
+                                <p> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                            </details>
+                         </li>
+                         <li class="parameters__list-item">
+                            <details class="parameters__list-text">
+                                <summary>VERO CLEAR (POLYJET)</summary>
+                                <p> </p>
+                            </details>
+                         </li>      
+                    </ul>     
+            </section>
+                <div class="form-contents">
+                    <div class="contents-first"> 
+                        <h1 class="contents-title contents-first__title">Шаг 1 из 3</h1>
+                        <form class="" action="#">
+                            <div> 
+                                <p class="sent-input"> 
+                                    <input class="sent-input__file" type="file" name="infor">
+                                </p>
+                                <p class="sent__text">Кликните, чтобы прикрепить 3D модель или фото</p> 
+                            </div>                    
+                        <div class="contents-parameters">
+                            <div>
+                                <p class="contents-parameters__text">Допустимые расширения:</p>
+                                <p class="contents-parameters__text">.jpg, .jpeg, .png, .gif, .pdf, .psd, .ai, .max, .cdr, .3ds, .stl, .igs, .model, .mxp, .obj, .wrl, .3dm, .fbx, .matpart, .matamx, .zip, .rar, .7z, .skp, .dae, .ply, .magics, .mgx, .x3d, .x3dv, .3mf, .stp, .step, .prt, .zpr</p>
+                            </div>
+                            <div>
+                                <p class="contents-parameters__text">Максимальный размер файла:</p>
+                                <p class="contents-parameters__text">10 Мб</p>
+                            </div>
+                        </div>
+                       <div class="add-input">
+                           <textarea class="add-input__link" name="link"></textarea>
+                       </div>
+                       <div class="popup-button">
+                           <button class="popup-button__back">Назад</button>
+                           <button class="popup-button__next">Далее</button>
+                       </div>
+                    </form>
+                    </div>  
+                    <div class="contents-second"> </div>  
+                    <div class="contents-third"></div>   
+                    <div class="contents-finish"></div>        
+                </div>              
+                <section class="question-section">
+                    <div>
+                        <h2 class="title question-section__title">Остались вопросы?</h2>
+                        <p class="question-section__text" >Оформите заявку на сайте и мы свяжемся с вами в ближайшее время.</p>
+                    </div>        
+                    <form class="information-form" action="#">
+                        <div>
+                            <input class="information__name" type="text" name="" value="">
+                            <input class="information__tel" type="text" name="" value="">              
+                            <textarea class="information__write" name="text"></textarea>    
+                        </div>                    
+                    <div class="agreement-question">
+                        <button class="agreement-question__sent" type="submit">Отправить</button>
+                        <p class="agreement-question__text">Нажимая на кнопку, вы соглашаетесь с <a href="">Политикой конфиденциальности</a> </p>
+                    </div>
+                </form>
+                </section>
+              
         </main>
             <footer class="footer">
                 <div>  

@@ -1,0 +1,48 @@
+
+@import './block/header.scss';
+@import './block/main.scss';
+    
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/gilroy-regular.ttf);
+}
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/gilroy-bold.ttf);
+}
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/gilroy-medium.ttf);
+}
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/gilroy-semibold.ttf);
+}
+    @font-face {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 800;
+        src: url(../fonts/Gilroy-ExtraBold.otf);
+}
+*{
+    font-family:"Gilroy","Arial",sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: content-box;
+}
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
