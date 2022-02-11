@@ -32,7 +32,7 @@
                  </div>    
             </div>       
         </header>
-        <div class="main-wrapper"> 
+        <div class="about-wrapper"> 
             <section class="about">
                 <div>
                     <h1 class="about-title"> Услуги <br> <span>3D</span>-печати</h1>
@@ -55,11 +55,12 @@
         </div> 
     </div> 
     <main class="main"> 
+        <div class="catalog-wrapper"> 
             <section class="catalog">
                 <h2 class="title catalog__title">Изготовим что угодно</h2>
                 <ul class="products"> 
                     <li class="products__item">
-                        <img class="products_img" src="./img/index/detail1.png" alt="">
+                        <img class="products__img" src="./img/index/detail1.png" alt="">
                         <h2 class="products__subtitle" >Промышленные прототипы</h2>
                         <p class="products__text" >Для испытания образцов перед началом производства</p>
                     </li>
@@ -71,7 +72,7 @@
                     <li class="products__item">
                         <img  class="products_img" src="./img/index/detail3.png" alt="">
                         <h2 class="products__subtitle">Ювелирные изделия</h2>
-                        <p>Для придания индивидуального стиля</p>
+                        <p class="products__text">Для придания индивидуального стиля</p>
                     </li>
                     <li class="products__item">
                         <img  class="products_img" src="./img/index/detail4.png" alt="">
@@ -105,29 +106,35 @@
                     </li>      
                 </ul>    
             </section>
+        </div> 
+        <div class="work-wrapper"> 
             <section class="work">
                 <h2 class="title work__title">Как мы работаем</h2>
-                <div class="work-picture">
-                    <img class="work-picture__img" src="./img/index/peoplemain.png" alt="">    
+                <div class="work-container">
+                    <div class="work-picture">
+                        <img class="work-picture__img" src="./img/index/people.png" alt="">    
+                    </div>
+                    <ul class="work__list">
+                        <li class="work__item">
+                            <p class="work__text">Составление заявки на просчёт стоимости и сроков</p>
+                        </li>
+                        <li class="work__item">
+                            <p class="work__text">Предоплата работы</p>
+                        </li>
+                        <li class="work__item">
+                            <p class="work__text">Предоплата работы</p> 
+                        </li>
+                        <li class="work__item">
+                            <p class="work__text">Создание и согласование 3D-модели</p>
+                        </li>
+                        <li class="work__item">
+                            <p class="work__text">Отправка клиенту после оплаты остатка</p> 
+                        </li>            
+                    </ul>                
                 </div>
-                <ul class="work__list">
-                    <li class="work__item">
-                        <p class="work__text">Составление заявки на просчёт стоимости и сроков</p>
-                    </li>
-                    <li class="work__item">
-                        <p class="work__text">Предоплата работы</p>
-                    </li>
-                    <li class="work__item">
-                        <p class="work__text">Предоплата работы</p> 
-                    </li>
-                    <li class="work__item">
-                        <p class="work__text">Создание и согласование 3D-модели</p>
-                    </li>
-                    <li class="work__item">
-                        <p class="work__text">Отправка клиенту после оплаты остатка</p> 
-                    </li>            
-                </ul>            
+                
             </section>
+        </div>       
             <section class="price">
                 <h2 class="title price__title">Рассчитать стоимость <span>3D</span>-печати</h2>
                 <div class="parameters">
@@ -241,8 +248,9 @@
                     </div>
                 </form>
                 </section>
-              
+                 
         </main>
+        <div class="footer-wrapper">
             <footer class="footer">
                 <div>  
                  <a class="logo footer__logo" href="index.html">
@@ -277,6 +285,8 @@
                         <a class="link-footer__item" href="#">@2021. Все права защищены</a>
                         <a class="link-footer__item" href="#">Сделано в Webnauts c</a>
                     </div>  
-            </footer>
+            </footer>    
+        </div>
+            
 </body>
 </html>

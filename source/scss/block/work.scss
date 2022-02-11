@@ -1,0 +1,33 @@
+.work-wrapper{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-bottom: 350px;
+    padding-right: 200px;
+}
+.work__text{
+    font-weight: bold;
+font-size: 18px;
+line-height: 140%;
+color: #2C2F36;
+
+}
+.work-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+}
+.work__title{
+    padding-left: 200px;
+}
+.work__item{
+    max-width: 128px;
+}
+.work__item:first-child{
+    max-width: 378px;
+}
+.work__item:last-child{
+    max-width: 136px; 
+}
+.work__list{
+    padding-left: 130px;
+}

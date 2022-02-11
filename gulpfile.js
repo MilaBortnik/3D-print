@@ -69,7 +69,7 @@ function cssNomin (){
          inlineSvg:true
      }))
      .pipe(rename('sprite.svg'))
-     .pipe(dest('./build/img'))
+     .pipe(dest('build/img'))
  }
  function copy() {
     return src ([

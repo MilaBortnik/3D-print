@@ -1,6 +1,10 @@
 
 @import './block/header.scss';
+@import './block/about.scss';
 @import './block/main.scss';
+@import './block/catalog.scss';
+@import './block/work.scss';
+@import './block/footer.scss';
     
 @font-face {
     font-family: "Gilroy";
@@ -45,4 +49,7 @@
 *::after{
     box-sizing: inherit;
 }
+*ul li{list-style: none;}
+*a {text-decoration: none;}
+
 
