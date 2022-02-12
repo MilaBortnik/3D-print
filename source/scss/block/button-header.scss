@@ -1,0 +1,31 @@
+.button__print{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #FB8C00;
+    border-radius: 88px;
+    padding-left: 58px;
+    padding-right: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: none;
+    position: relative;
+    content: "";
+    }
+    .button__print:hover{
+        background-color: #2F80ED;
+    }
+    .button__print:active,
+    .button__print:focus{
+        background-color: #0649a0;
+    }
+    .button__print::before{
+        position: absolute;
+        content: "";
+        background-image: url(../../img/index/print.svg);
+        width: 12px;
+        height: 13px;
+        left: 32px;
+        bottom: 17px;
+    }

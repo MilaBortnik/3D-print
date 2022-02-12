@@ -1,0 +1,36 @@
+.menu__headr-list{
+    display: flex;
+    padding-left: 0;    
+    }
+.menu__header-item{
+    list-style: none;
+}
+.menu__header-link{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2C2F36;
+    text-decoration: none;
+    padding-right: 72px;
+    position: relative;
+    content: "";
+   
+}
+.menu__header-link:hover{
+    color: #FB8C00;
+    
+}
+.menu__header-link:active,
+.menu__header-link:focus{
+    color: #cf7404;
+}
+.menu__header-link--active:hover:before{
+    position: absolute;
+    content: "";
+    width: 81px;
+    height: 3px;
+    background-color:#FB8C00;
+    bottom: -5px;
+    left: 0;
+    
+}

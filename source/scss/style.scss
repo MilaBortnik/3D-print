@@ -1,44 +1,18 @@
 
 @import './block/header.scss';
+@import './block/header-wrapper.scss';
+@import './block/menu.scss';
+@import './block/button-header.scss';
+@import './block/logo.scss';
 @import './block/about.scss';
 @import './block/main.scss';
 @import './block/catalog.scss';
 @import './block/work.scss';
 @import './block/footer.scss';
+@import './fonts.scss';
     
-@font-face {
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/gilroy-regular.ttf);
-}
-@font-face {
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 700;
-    src: url(../fonts/gilroy-bold.ttf);
-}
-@font-face {
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 500;
-    src: url(../fonts/gilroy-medium.ttf);
-}
-@font-face {
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 600;
-    src: url(../fonts/gilroy-semibold.ttf);
-}
-    @font-face {
-        font-family: "Gilroy";
-        font-style: normal;
-        font-weight: 800;
-        src: url(../fonts/Gilroy-ExtraBold.otf);
-}
+
 *{
-    font-family:"Gilroy","Arial",sans-serif;
-    font-style: normal;
     margin: 0;
     padding: 0;
 }
@@ -49,7 +23,7 @@
 *::after{
     box-sizing: inherit;
 }
-*ul li{list-style: none;}
-*a {text-decoration: none;}
+ul li{list-style: none;}
+a {text-decoration: none;}
 
 
