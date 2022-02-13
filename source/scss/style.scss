@@ -7,25 +7,14 @@
 @import './block/about.scss';
 @import './block/main.scss';
 @import './block/catalog.scss';
+@import './block/gallery.scss';
 @import './block/products.scss';
-@import './block/block.scss';
 @import './block/work.scss';
 @import './block/footer.scss';
 @import './fonts.scss';
+@import './global.scss';
     
 
-*{
-    margin: 0;
-    padding: 0;
-}
-*{
-    box-sizing: content-box;
-}
-*::before,
-*::after{
-    box-sizing: inherit;
-}
-ul li{list-style: none;}
-a {text-decoration: none;}
+
 
 

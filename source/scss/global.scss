@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: content-box;
+}
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+ul li{list-style: none;}
+a {text-decoration: none;}
