@@ -13,31 +13,3 @@
 .catalog__title{
     padding-bottom: 68px;
 }
-.products__subtitle{
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 140%;
-    color: #2C2F36;
-    max-width: 315px;
-}
-.products__text{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 140%;
-    color: #2C2F36;
-    width: 228px;
-    height: 44px;
-    padding-top: 16px;
-    max-width: 270px;
-    
-}
-.products{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 126px 30px;
-    justify-items: center;
-    align-items: center;
-}
-.products__item{
-    text-align: center;
-}
