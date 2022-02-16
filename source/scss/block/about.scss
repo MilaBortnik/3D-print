@@ -1,11 +1,12 @@
 
 .about-wrapper{
-    max-width: 1600px;
-    margin: 0 auto;
-    padding-left: 200px;
+    width: 100%;
     padding-bottom: 300px;
 }
 .about{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 200px;
     display: flex;
 }
 .about-title{
@@ -48,9 +49,9 @@ span{
 }
 .about-list__text{
     font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-color: #2C2F36;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2C2F36;
 }   
 .about-list__item{
     padding-left: 63px;
