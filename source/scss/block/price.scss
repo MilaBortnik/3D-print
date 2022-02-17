@@ -1,0 +1,15 @@
+.price{
+    width: 1140px;
+    padding-left: 215px;
+    padding-bottom: 184px;
+      
+}
+.parameters-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.price__title{
+    padding-bottom: 54px;
+}

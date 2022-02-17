@@ -1,0 +1,105 @@
+.parameters{ 
+    background-color: rgba(241, 245, 248, 1);
+    border-radius: 35px;
+    width: 470px;
+    min-height: 635px;
+}
+.parameters-link{
+    padding-top: 44px;
+    padding-left: 40px;
+    padding-bottom: 48px;
+}
+.parameters-link__item{
+    padding-right: 32px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    color: #2C2F36;
+    position: relative;
+    content: "";
+}
+.parameters-link__item:nth-child(2){
+padding-right: 0;
+}
+.parameters-link__item:hover{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FB8C00;
+    
+}
+.parameters-link__item:hover::before,
+.parameters__link:hover::before{
+    position: absolute;
+    content: "";  
+    height: 3px;
+    background-color: #FB8C00;
+    left: 0;
+    bottom: -5px;
+}
+.parameters-link__item:hover::before{
+    width: 101px;
+}
+.parameters__link:hover::before{
+    width: 87px;  
+}
+.parameters__list{
+    padding-left: 40px;
+}
+
+.parameters__list-item{
+    padding-bottom: 28px;   
+}
+.parameters__list-paragraph{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #2C2F36;
+    padding-top: 16px;
+    width: 388px;
+    position: relative;
+    content: "";
+}
+.parameters__list-subtext{
+    position: relative;
+    content: "";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #2C2F36;
+}
+
+.parameters__list-subtext{
+    display: block;
+}
+.parameters__list-subtext::-webkit-details-marker{
+    display: none;
+}
+.parameters__list-subtext::after{
+    position: absolute;
+    content: "+";
+    font-size: 20px;
+    right: 47px;   
+}
+.parameters__list-text[open] .parameters__list-subtext::after{
+    content: "-";
+    color: rgba(47, 128, 237, 1);
+    font-size: 20px;
+    right: 47px;   
+}
+.parameters__list-text[open] .parameters__list-subtext{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2F80ED;
+}
+.parameters__list-paragraph::after{
+    position: absolute;
+    content: "";
+    background-color: rgba(47, 128, 237, 1);
+    width: 390px;
+    height: 3px;
+    bottom: -16px;
+    left: 0;
+}
+    
