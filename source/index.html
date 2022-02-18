@@ -8,29 +8,29 @@
     <link rel="stylesheet" href="css/style.min.CSS">
 </head>
 <body>
-        <header class="header">
-            <div class="header-wrapper">
+        <div class="header-wrapper">
+            <header class="header">
                 <a class="logo header__logo" href="index.html">
                     <img class="logo__img" src="./img/index/logo.png" alt="logo">
                 </a>
-                <nav class=" menu header__menu">
-                    <ul class="menu__headr-list">
-                        <li class="menu__header-item">
-                            <a class="menu__header-link menu__header-link--active" href="printing.html">3D-печать</a>
+                <nav class="menu-header">
+                    <ul class="menu-headr__list">
+                        <li class="menu-header__item">
+                            <a class="menu-header__link menu__header-link--active" href="printing.html">3D-печать</a>
                         </li>
-                        <li class="menu__header-item">
-                            <a class="menu__header-link" href="modeling.html">3D-моделирование </a>
+                        <li class="menu-header__item">
+                            <a class="menu-header__link" href="modeling.html">3D-моделирование </a>
                         </li>
-                        <li class="menu__header-item">
-                            <a class="menu__header-link"  href="contacts.html">Контакты</a>
+                        <li class="menu-header__item">
+                            <a class="menu-header__link"  href="contacts.html">Контакты</a>
                         </li>
                     </ul>
                 </nav>
                 <div class="button-header">
                     <button class="button__print">Рассчитать стоимость</button>
                  </div>    
-            </div>       
-        </header>
+            </header>       
+        </div>
     <main class="main"> 
         <div class="about-wrapper"> 
             <section class="about">
@@ -203,7 +203,7 @@
                     <div class="contents-first"> 
                         <h1 class="contents-title contents-first__title">Шаг 1 из 3</h1>
                         <form class="" action="#">
-                            <div> 
+                            <div class="sent"> 
                                 <p class="sent-input"> 
                                     <input class="sent-input__file" type="file" name="infor">
                                 </p>
@@ -211,20 +211,20 @@
                             </div>                    
                         <div class="contents-parameters">
                             <div>
-                                <p class="contents-parameters__text">Допустимые расширения:</p>
-                                <p class="contents-parameters__text">.jpg, .jpeg, .png, .gif, .pdf, .psd, .ai, .max, .cdr, .3ds, .stl, .igs, .model, .mxp, .obj, .wrl, .3dm, .fbx, .matpart, .matamx, .zip, .rar, .7z, .skp, .dae, .ply, .magics, .mgx, .x3d, .x3dv, .3mf, .stp, .step, .prt, .zpr</p>
+                                <p class="contents-parameters__text sent-input__paragraph">Допустимые расширения:</p>
+                                <p class=" contents-parameters__text ">Максимальный размер файла:</p>
                             </div>
                             <div>
-                                <p class="contents-parameters__text">Максимальный размер файла:</p>
+                                <p class="contents-parameters__text sent-input__text"> .jpg, .jpeg, .png, .gif, .pdf, .psd, .ai, .max, .cdr, .3ds, .stl, .igs, .model, .mxp, .obj, .wrl, .3dm, .fbx, .matpart, .matamx, .zip, .rar, .7z, .skp, .dae, .ply, .magics, .mgx, .x3d, .x3dv, .3mf, .stp, .step, .prt, .zpr</p>
                                 <p class="contents-parameters__text">10 Мб</p>
                             </div>
                         </div>
                        <div class="add-input">
                            <textarea class="add-input__link" name="link"></textarea>
                        </div>
-                       <div class="popup-button">
-                           <button class="popup-button__back">Назад</button>
-                           <button class="popup-button__next">Далее</button>
+                       <div class="form-button">
+                           <button class="button-form form-button__back">Назад</button>
+                           <button class="button-form form-button__next">Далее</button>
                        </div>
                     </form>
                     </div>  
@@ -235,62 +235,68 @@
             </div> 
         </section>   
         </div>   
-        
-
-         <section class="question-section">
-                    <div>
-                        <h2 class="title question-section__title">Остались вопросы?</h2>
-                        <p class="question-section__text" >Оформите заявку на сайте и мы свяжемся с вами в ближайшее время.</p>
-                    </div>        
-                    <form class="information-form" action="#">
-                        <div>
-                            <input class="information__name" type="text" name="" value="">
-                            <input class="information__tel" type="text" name="" value="">              
-                            <textarea class="information__write" name="text"></textarea>    
-                        </div>                    
-                    <div class="agreement-question">
-                        <button class="agreement-question__sent" type="submit">Отправить</button>
-                        <p class="agreement-question__text">Нажимая на кнопку, вы соглашаетесь с <a href="">Политикой конфиденциальности</a> </p>
-                    </div>
-                </form>
-    </section>
-                 
+        <div class="question-wrapper"> 
+            <section class="question-section">
+                <div class="question-text">
+                    <h2 class="title question-text__title">Остались вопросы?</h2>
+                    <p class="question-text__paragraph" >Оформите заявку на сайте и мы свяжемся с вами в ближайшее время.</p>
+                </div>        
+                <form class="information-form" action="#">
+                    <div >
+                        <div class="information-input"> 
+                        <input class="question-input information-input__name" type="text" name="" value="">
+                        <input class="question-input information-input__tel " type="text" name="" value="">  
+                        </div>        
+                        <textarea class="information-input__write" name="text"></textarea>    
+                    </div>                    
+                <div class="question-agreement">
+                    <button class="question-agreement__button" type="submit">Отправить</button>
+                    <p class="question-agreement__text">Нажимая на кнопку, вы соглашаетесь с <a class="question-agreement-link" href="">Политикой конфиденциальности</a> </p>
+                </div>
+            </form>
+</section>
+        </div>               
         </main>
         <div class="footer-wrapper">
             <footer class="footer">
-                <div>  
-                 <a class="logo footer__logo" href="index.html">
+                <div class="footer-navigation">  
+                 <a class="logo footer-navigation__logo" href="index.html">
                     <img class="logo__img"src="./img/index/logo.png" alt="logo">
                 </a>
-                <nav class=" menu footer__menu">
-                    <ul class="menu__footer-list">
-                        <li class="menu__footer-item">
-                            <a class="menu__footer-link" href="printing.html">3D-печать</a>
+                <nav class=" menu-footer">
+                    <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a class="menu-footer__link" href="printing.html">3D-печать</a>
                         </li>
-                        <li class="menu__footer-item">
-                            <a class="menu__footer-link" href="modeling.html">3D-моделирование </a>
+                        <li class="menu-footer__item">
+                            <a class="menu-footer__link" href="modeling.html">3D-моделирование </a>
                         </li>
-                        <li class="menu__footer-item">
-                            <a class="menu__footer-link"  href="contacts.html">Контакты</a>
+                        <li class="menu-footer__item">
+                            <a class="menu-footer__link"  href="contacts.html">Контакты</a>
                         </li>
                     </ul>
                 </nav>
-            </div>          
-                <div class="address">
-                   <a class="adress__tel" href="telto:+38 (097) 999-99-99">+38 (097) 999-99-99</a> 
-                      <div>
+                     
+                <div class="phone">
+                   <a class="phone__call" href="telto:+38 (097) 999-99-99">+38 (097) 999-99-99</a> 
+                </div>   
+                   <div class="address">
                         <p class="address__town">г. Киев, ул. Гагарина 25/68</p>
                         <a class="address__mail" href="milto:pochta@gmail.com">pochta@gmail.com</a>
-                        <div> 
-                            <a  class="address__video" href="#"></a>
-                            <a  class="address__facebook" href="#"></a>
+                        <div class="networks"> 
+                            <a  class="networks__video" href="#">
+                                <img src="./img/index/youtube.svg" alt="">
+                            </a>
+                            <a class="networks__facebook" href="#">
+                                <img src="./img/index/facebook.svg" alt="">
+                            </a>
                         </div>                    
-                    </div>
+                    </div>       
+            </div> 
+                <div class="link-footer">
+                    <a class="link-footer__item" href="#">@2021. Все права защищены</a>
+                    <a class="link-footer__item link-footer__heart" href="#">Сделано в Webnauts c <img src="./img/index/heart.svg" alt=""></a>
                 </div>
-                    <div class="link-footer">
-                        <a class="link-footer__item" href="#">@2021. Все права защищены</a>
-                        <a class="link-footer__item" href="#">Сделано в Webnauts c</a>
-                    </div>  
             </footer>    
         </div>
             

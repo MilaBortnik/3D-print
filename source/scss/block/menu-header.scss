@@ -1,8 +1,8 @@
-.menu__headr-list{
+.menu-headr__list{
     display: flex;
     padding-left: 0;    
     }
-.menu__header-link{
+.menu-header__link{
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
@@ -13,12 +13,12 @@
     content: "";
    
 }
-.menu__header-link:hover{
+.menu-header__link:hover{
     color: #FB8C00;
     
 }
-.menu__header-link:active,
-.menu__header-link:focus{
+.menu-header__link:active,
+.menu-header__link:focus{
     color: #cf7404;
 }
 .menu__header-link--active:hover:before{

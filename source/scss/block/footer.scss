@@ -1,6 +1,58 @@
 
 .footer{
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 1170px;
+    height: 235px;
     padding-top: 180px;
+    padding-left: 215px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 81px 0;
+    
+}
+
+.footer-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.link-footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.networks{
+    padding-top: 18px;
+}
+.networks__video{
+    padding-right: 24px;
+}
+.address{
+    text-align: end;
+}
+.address__mail{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #2F80ED;  
+}
+.address__town{
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #2C2F36;
+}
+.phone__call{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2C2F36;
+}
+.link-footer__item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4BBCE;
 }

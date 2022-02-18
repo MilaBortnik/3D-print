@@ -1,0 +1,24 @@
+.form-button{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-form{
+    color: white;
+    border: none;
+    border-radius: 37px;
+    width: 160px;
+    height: 50px;
+}
+.form-button__back{
+    background-color: #B4BBCE;  
+}
+.form-button__back:hover{
+    background-color: #2C2F36;
+}
+.form-button__next{
+    background-color: #FB8C00;
+}
+.form-button__next:hover{
+    background-color: #2F80ED;
+}
