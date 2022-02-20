@@ -24,7 +24,18 @@
 .link-footer{
     display: flex;
     justify-content: space-between;
-    
+    position: relative;
+    content: "";   
+}
+.link-footer::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    opacity: 0.3;
+    background-color: #B4BBCE;
+    top: -27px;
+    left: 0;
 }
 .networks{
     padding-top: 18px;
@@ -61,4 +72,20 @@
     font-size: 14px;
     line-height: 16px;
     color: #B4BBCE;
+}
+.link-footer__heart{
+    padding-right: 16px;
+    position: relative;
+    content: "";
+}
+.link-footer__heart::after{
+    position: absolute;
+    content: "";
+    background-image: url(../../img/index/heart.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 9px;
+    top: 5px;
+    right:0;
 }
