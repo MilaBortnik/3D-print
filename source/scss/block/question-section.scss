@@ -1,4 +1,9 @@
+
 .question-section{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.question-wrapper{
     background-image: url(../../img/index/question.png);
     background-position: center;
     width: 1170px;
@@ -41,6 +46,7 @@
     color: white;
     width: 235px;
     height: 50px;
+    border: none;
     border-radius: 37px;
    
 }
@@ -53,11 +59,15 @@
 .question-input{
     width: 235px;
     height: 50px;
+    border-radius: 7px;
+    border: white;
 }
 .information-input__write{
     width: 500px;
     height: 109px;
     margin-bottom: 32px;
+    border-radius: 7px;
+    border: none;
 }
 .information-input{
     display: flex;

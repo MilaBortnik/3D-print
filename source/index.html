@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="css/style.min.CSS">
 </head>
 <body>
+    <div class="wrapper">
+        <header class="header">
         <div class="header-wrapper">
-            <header class="header">
                 <a class="logo header__logo" href="index.html">
                     <img class="logo__img" src="./img/index/logo.png" alt="logo">
                 </a>
@@ -28,12 +29,12 @@
                 </nav>
                 <div class="button-header">
                     <button class="button__print">Рассчитать стоимость</button>
-                 </div>    
-            </header>       
+                 </div>           
         </div>
-    <main class="main"> 
-        <div class="about-wrapper"> 
+    </header>
+    <main class="main">     
             <section class="about">
+                <div class="about-wrapper">
                 <div>
                     <h1 class="about-title"> Услуги <br> <span>3D</span>-печати</h1>
                     <ul class="about-list">
@@ -50,11 +51,12 @@
                 </div>
                 <div class="about-picture"> 
                     <img class="about-picture__img" src="./img/index/headerimg.png" alt="3D-PRINT" width="747px" height="501px">
-                </div>         
-            </section>
-        </div>  
-        <div class="catalog-wrapper">       
-            <section class="catalog"> 
+                </div>              
+            </div> 
+    </section>    
+    </div>
+    <section class="catalog"> 
+         <div class="catalog-wrapper">             
                 <h2 class="title catalog__title">Изготовим что угодно</h2>
                 <ul class="gallery"> 
                     <li class="products gallery__item">
@@ -102,11 +104,11 @@
                         <h2 class="products__subtitle">Сувенирная продукция</h2>
                         <p class="products__text">Для создания необычных и запоминающихся даров</p>
                     </li>      
-                </ul>              
-            </section> 
+                </ul>                     
         </div>  
-             <div class="work-wrapper"> 
-            <section class="work">
+    </section> 
+    <section class="work">
+             <div class="work-wrapper">   
                 <h2 class="title work__title">Как мы работаем</h2>
                 <div class="work-container">
                     <div class="work-container__picture">
@@ -130,113 +132,161 @@
                         </li>            
                     </ul>                
                 </div>
-                
-            </section>
         </div>   
-        <div class="prise-wrapper">
-            <section class="price">
+    </section>
+    <section class="price">    
+        <div class="price-wrapper"> 
             <h2 class="title price__title">Рассчитать стоимость <span>3D</span>-печати</h2>
-                   <div class="parameters-block">
-                       <div class="parameters"> 
-                        <div class="parameters-link">
-                            <a class="parameters-link__item" href="">Материалы</a>
-                            <a class="parameters-link__item parameters__link" href="">Принтеры</a>
-                            </div>        
-                                 <ul class="parameters__list">
-                                     <li class="parameters__list-item">
-                                        <details class="parameters__list-text">
-                                            <summary class="parameters__list-subtext">ABS PRO (FDM)</summary>
-                                            <p class="parameters__list-paragraph">ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                                        </details>
-                                     </li>
-                                     <li class="parameters__list-item">
-                                        <details class="parameters__list-text">
-                                            <summary class="parameters__list-subtext">PLA (FDM)</summary>
-                                            <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                                        </details>
-                                     </li>
-                                     <li class="parameters__list-item">
-                                        <details class="parameters__list-text">
-                                            <summary class="parameters__list-subtext">ELASTAN (FDM)</summary>
-                                            <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                                        </details>
-                                     </li>
-                                     <li class="parameters__list-item">
-                                        <details class="parameters__list-text">
-                                            <summary class="parameters__list-subtext">COPET (FDM)</summary>
-                                            <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                                        </details>
-                                     </li>
-                                     <li class="parameters__list-item">
-                                        <details class="parameters__list-text">
-                                            <summary class="parameters__list-subtext">NYLON CARBON (FDM)</summary>
-                                            <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                                        </details>
-                                     </li>
-                                     <li class="parameters__list-item">
-                                        <details class="parameters__list-text">
-                                            <summary class="parameters__list-subtext">TANGO (POLYJET)</summary>
-                                            <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                                        </details>
-                                     </li>
-                                     <li class="parameters__list-item">
-                                        <details class="parameters__list-text">
-                                            <summary class="parameters__list-subtext">VERO WHITE (POLYJET)</summary>
-                                            <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                                        </details>
-                                     </li>
-                                     <li class="parameters__list-item">
-                                        <details class="parameters__list-text">
-                                            <summary class="parameters__list-subtext">VERO WHITE (POLYJET)</summary>
-                                            <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
-                                        </details>
-                                     </li>
-                                     <li class="parameters__list-item">
-                                        <details class="parameters__list-text">
-                                            <summary class="parameters__list-subtext">VERO CLEAR (POLYJET)</summary>
-                                            <p class="parameters__list-paragraph">ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом. </p>
-                                        </details>
-                                     </li>      
-                                </ul>      
-                       </div>                      
-                <div class="form-contents">
-                    <div class="contents-first"> 
-                        <h1 class="contents-title contents-first__title">Шаг 1 из 3</h1>
-                        <form class="" action="#">
-                            <div class="sent"> 
-                                <p class="sent-input"> 
-                                    <input class="sent-input__file" type="file" name="infor">
-                                </p>
-                                <p class="sent__text">Кликните, чтобы прикрепить 3D модель или фото</p> 
-                            </div>                    
-                        <div class="contents-parameters">
-                            <div>
-                                <p class="contents-parameters__text sent-input__paragraph">Допустимые расширения:</p>
-                                <p class=" contents-parameters__text ">Максимальный размер файла:</p>
-                            </div>
-                            <div>
-                                <p class="contents-parameters__text sent-input__text"> .jpg, .jpeg, .png, .gif, .pdf, .psd, .ai, .max, .cdr, .3ds, .stl, .igs, .model, .mxp, .obj, .wrl, .3dm, .fbx, .matpart, .matamx, .zip, .rar, .7z, .skp, .dae, .ply, .magics, .mgx, .x3d, .x3dv, .3mf, .stp, .step, .prt, .zpr</p>
-                                <p class="contents-parameters__text">10 Мб</p>
-                            </div>
-                        </div>
-                       <div class="add-input">
-                           <textarea class="add-input__link" name="link"></textarea>
-                       </div>
-                       <div class="form-button">
-                           <button class="button-form form-button__back">Назад</button>
-                           <button class="button-form form-button__next">Далее</button>
-                       </div>
-                    </form>
-                    </div>  
-                    <div class="contents-second"> </div>  
-                    <div class="contents-third"></div>   
-                    <div class="contents-finish"></div>        
-                </div>  
-            </div> 
-        </section>   
-        </div>   
+            <div class="parameters-block">
+                <div class="parameters"> 
+                 <div class="parameters-link">
+                     <a class="parameters-link__item" href="">Материалы</a>
+                     <a class="parameters-link__item parameters__link" href="">Принтеры</a>
+                     </div>        
+                          <ul class="parameters__list">
+                              <li class="parameters__list-item">
+                                 <details class="parameters__list-text">
+                                     <summary class="parameters__list-subtext">ABS PRO (FDM)</summary>
+                                     <p class="parameters__list-paragraph">ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                                 </details>
+                              </li>
+                              <li class="parameters__list-item">
+                                 <details class="parameters__list-text">
+                                     <summary class="parameters__list-subtext">PLA (FDM)</summary>
+                                     <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                                 </details>
+                              </li>
+                              <li class="parameters__list-item">
+                                 <details class="parameters__list-text">
+                                     <summary class="parameters__list-subtext">ELASTAN (FDM)</summary>
+                                     <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                                 </details>
+                              </li>
+                              <li class="parameters__list-item">
+                                 <details class="parameters__list-text">
+                                     <summary class="parameters__list-subtext">COPET (FDM)</summary>
+                                     <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                                 </details>
+                              </li>
+                              <li class="parameters__list-item">
+                                 <details class="parameters__list-text">
+                                     <summary class="parameters__list-subtext">NYLON CARBON (FDM)</summary>
+                                     <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                                 </details>
+                              </li>
+                              <li class="parameters__list-item">
+                                 <details class="parameters__list-text">
+                                     <summary class="parameters__list-subtext">TANGO (POLYJET)</summary>
+                                     <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                                 </details>
+                              </li>
+                              <li class="parameters__list-item">
+                                 <details class="parameters__list-text">
+                                     <summary class="parameters__list-subtext">VERO WHITE (POLYJET)</summary>
+                                     <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                                 </details>
+                              </li>
+                              <li class="parameters__list-item">
+                                 <details class="parameters__list-text">
+                                     <summary class="parameters__list-subtext">VERO WHITE (POLYJET)</summary>
+                                     <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                                 </details>
+                              </li>
+                              <li class="parameters__list-item">
+                                 <details class="parameters__list-text">
+                                     <summary class="parameters__list-subtext">VERO CLEAR (POLYJET)</summary>
+                                     <p class="parameters__list-paragraph">ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом. </p>
+                                 </details>
+                              </li>      
+                         </ul>      
+                </div>                      
+         <div class="form-contents">
+             <div class="contents-first"> 
+                 <h1 class="contents-title contents-first__title">Шаг 1 из 3</h1>
+                 <form class="" action="#">
+                     <div class="sent"> 
+                         <p class="sent-input"> 
+                             <input class="sent-input__file" type="file" name="infor">
+                         </p>
+                         <p class="sent__text">Кликните, чтобы прикрепить 3D модель или фото</p> 
+                     </div>                    
+                 <div class="contents-parameters">
+                     <div>
+                         <p class="contents-parameters__text sent-input__paragraph">Допустимые расширения:</p>
+                         <p class=" contents-parameters__text ">Максимальный размер файла:</p>
+                     </div>
+                     <div>
+                         <p class="contents-parameters__text sent-input__text"> .jpg, .jpeg, .png, .gif, .pdf, .psd, .ai, .max, .cdr, .3ds, .stl, .igs, .model, .mxp, .obj, .wrl, .3dm, .fbx, .matpart, .matamx, .zip, .rar, .7z, .skp, .dae, .ply, .magics, .mgx, .x3d, .x3dv, .3mf, .stp, .step, .prt, .zpr</p>
+                         <p class="contents-parameters__text">10 Мб</p>
+                     </div>
+                 </div>
+                <div class="add-input">
+                    <textarea class="add-input__link" name="link"></textarea>
+                </div>
+                <div class="form-button">
+                    <button class="button-form form-button__back">Назад</button>
+                    <button class="button-form form-button__next">Далее</button>
+                </div>
+             </form>
+             </div>  
+             <div class="contents-second">
+                 <h1 class="contents-title contents-second__title">Шаг 2 из 3 </h1> 
+                 <form action="">
+                     <h2 class="content-sutitle contents-second__subtitle">Введите размеры фигуры </h2>
+                     <div class="parameters-second">
+                         <div class="parameters-input"> 
+                            <label class="parameters-input__name" for="">Ширина, мм 
+                                <input class="parameters-input__numbers" type="text">
+                            </label>
+                            <label class="parameters-input__name" for="">Высота, мм
+                               <input class="parameters-input__numbers" type="text">
+                           </label>
+                           <label class="parameters-input__name" for="">Длина, мм
+                               <input class="parameters-input__numbers" type="text">
+                           </label>
+                         </div>
+                         <div class="parameters-input">
+                                <input class="parameters-input__text" type="text">
+                               <input class="parameters-input__text" type="text">
+                         </div>               
+                     </div>
+                     <div class="form-button">
+                        <button class="button-form form-button__back">Назад</button>
+                        <button class="button-form form-button__next">Далее</button>
+                    </div>
+                 </form>  
+            </div>  
+             <div class="contents-third">
+                 <form action="">
+                 <div>
+                     <h1 class="contents-title contents-third__title">Шаг 3 из 3</h1>
+                     <h2 class="content-sutitle contents-third__subtitle"> Оставьте ваши данные </h2>
+                     <div class="input-third">
+                         <input class="input-third__text" type="text">
+                         <input class="input-third__text"  type="text">
+                     </div>
+                 </div>
+                 <div class="form-button">
+                    <button class="button-form form-button__back">Назад</button>
+                    <button class="button-form form-button__next">Далее</button>
+                </div>
+            </form>
+             </div>   
+             <div class="contents-finish">
+                 <form action="">
+                     <div class="finish-page">
+                         <h1 class="finish-subtitle"> Спасибо за заявку</h1>
+                         <p class="finish-text">Скоро наш менеджер свяжется с вами и уточнит стоимость вашего изделия</p>
+                         <button class="button-form form-button__back">Назад</button>
+                     </div>
+                 </form>
+             </div>        
+         </div>  
+     </div>     
+        </div>               
+    </section>  
+    <section class="question-section">
         <div class="question-wrapper"> 
-            <section class="question-section">
                 <div class="question-text">
                     <h2 class="title question-text__title">Остались вопросы?</h2>
                     <p class="question-text__paragraph" >Оформите заявку на сайте и мы свяжемся с вами в ближайшее время.</p>
@@ -254,11 +304,11 @@
                     <p class="question-agreement__text">Нажимая на кнопку, вы соглашаетесь с <a class="question-agreement-link" href="">Политикой конфиденциальности</a> </p>
                 </div>
             </form>
-</section>
-        </div>               
+        </div> 
+    </section>              
         </main>
+        <footer class="footer">
         <div class="footer-wrapper">
-            <footer class="footer">
                 <div class="footer-navigation">  
                  <a class="logo footer-navigation__logo" href="index.html">
                     <img class="logo__img"src="./img/index/logo.png" alt="logo">
@@ -296,9 +346,8 @@
                 <div class="link-footer">
                     <a class="link-footer__item" href="#">@2021. Все права защищены</a>
                     <a class="link-footer__item link-footer__heart" href="#">Сделано в Webnauts c <img src="./img/index/heart.svg" alt=""></a>
-                </div>
-            </footer>    
+                </div>    
         </div>
-            
+    </footer>        
 </body>
 </html>

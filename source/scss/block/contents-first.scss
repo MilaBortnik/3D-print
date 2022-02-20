@@ -2,7 +2,7 @@
     width: 590px;
     padding-top: 44px;
     padding-bottom: 44px;
-    padding-left: 40px;
+    padding-left: 40px; 
     
 }
 .contents-title{
@@ -10,6 +10,8 @@
     font-size: 24px;
     line-height: 29px;
     color: #2C2F36;
+}
+.contents-first__title{
     padding-bottom: 76px;
 }
 .contents-parameters__text{
@@ -56,4 +58,11 @@
 .add-input__link{
     width: 590px;
     height: 70px;
+    background-color: #F9FAFB;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border:  1px solid #ECEEF1;
+}
+.add-input{
+    padding-bottom: 60px;
 }

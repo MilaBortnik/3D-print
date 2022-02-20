@@ -1,10 +1,14 @@
 
 .header{
-    width: 1200px;
+    width: 100%;   
+}
+.header-wrapper{
+    max-width: 1200px;
     display: flex;
     align-items: center;
     padding-top: 24px;
     padding-left: 215px;
 }
+
 
 

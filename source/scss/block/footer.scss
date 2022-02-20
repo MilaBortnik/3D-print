@@ -1,6 +1,14 @@
 
 .footer{
-    width: 1170px;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 180px;
+    background-image: url(../../img/index/footerbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-wrapper{
+    max-width: 1170px;
     height: 235px;
     padding-top: 180px;
     padding-left: 215px;
@@ -8,9 +16,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 81px 0;
-    
 }
-
 .footer-navigation{
     display: flex;
     justify-content: space-between;

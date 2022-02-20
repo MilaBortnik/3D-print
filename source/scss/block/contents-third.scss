@@ -1,0 +1,27 @@
+.contents-third{
+    width: 590px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    padding-left: 40px;
+    display: none;
+}
+.contents-third__title{
+    padding-bottom: 86px;
+}
+.contents-third__subtitle{
+    padding-bottom: 52px;
+}
+.input-third__text{
+    width: 590px;
+    height: 50px;
+    background-color: #F9FAFB;
+    border: 1px solid #ECEEF1;
+    border-radius: 7px;
+}
+.input-third{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 36px;
+    padding-bottom: 172px;  
+}

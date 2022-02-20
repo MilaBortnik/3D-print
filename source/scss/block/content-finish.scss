@@ -1,0 +1,43 @@
+.contents-finish{
+    width: 590px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    padding-left: 40px; 
+    display: none;
+}
+.finish-subtitle::before{
+    position: absolute;
+    content: "";
+    background-image: url(../../img/index/smile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    bottom: 114px;
+    left: 65px;
+}
+.finish-subtitle{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    color: #2C2F36;
+    padding-bottom: 12px; 
+    position: relative;
+    content: "";   
+}
+
+.finish-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2C2F36;
+    width: 292px;
+    height: 44px;
+    padding-bottom: 48px;
+}
+.finish-page{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 292px;
+}
