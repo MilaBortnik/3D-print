@@ -23,6 +23,16 @@
     overflow: hidden; 
     display: table;
 }
+.work-list__namber{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+    color: #2F80ED;
+    position: absolute;
+    content: "";
+    top: 25px;
+    left: 25px;
+}
 .work-list__item::before{
     position: absolute;
     content: "";

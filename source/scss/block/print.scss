@@ -1,0 +1,107 @@
+.print{
+    width: 100%;
+}
+.print-wrapper{
+    width: 1185px;
+    margin: 0 auto;
+    margin-left: 215px;
+    margin-top: 94px;
+    margin-bottom: 180px;
+}
+.print__title{
+    padding-bottom: 197px;
+}
+.print-text{
+    display: flex;
+    justify-content: space-between;
+}
+.print-text__paragraph{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    color: #2C2F36;
+    width: 570px;
+    height: 170px;
+    position: relative;
+}
+.print-text__paragraph::after{
+    position: absolute;
+    content: "";
+    background-color: #FB8C00;
+    width: 72px;
+    height: 3px;
+    border-radius: 25px;
+    left: 0;
+    bottom: -50px;
+}
+.print-technology__text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2C2F36;
+    max-width: 584px;
+    padding-bottom: 24px;
+}
+.print-technology__text:nth-of-type(2){
+    padding-bottom: 0;
+    padding-top: 24px;
+}
+.print-technology__close{
+    position: relative;
+    content: "";
+    max-width: 522px;
+    padding-bottom: 30px;
+    padding-top: 31px;
+    padding-left: 24px;
+}
+.print-technology__close::before{
+    position: absolute;
+    content: "";
+    width: 570px;
+    height: 1px;
+    background-color: #B4BBCE;
+    opacity: 0.5;
+    border-radius: 8px;
+    left: 0;
+    top: 16px;
+}
+.print-technology__item{
+    margin-bottom: 16px;
+    background-color: rgba(235, 246, 255, 1);
+    border-radius: 8px;
+    max-width: 570px;
+    min-height: 50px;
+}
+.print-technology__item:nth-of-type(2){
+    margin-bottom: 0;
+}
+.print-technology__title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FB8C00;
+    padding-top: 14px;
+    padding-left: 24px;
+    position: relative;
+    content: "";
+}
+.print-technology__title{
+    display: block;
+}
+.print-technology__title::-webkit-details-marker{
+    display: none;
+}
+.print-technology__title::after{
+    position: absolute;
+    content: "+";
+    font-size: 15px;
+    color: black;
+    right: 14px;
+}
+.print-technology__item[open] .print-technology__title::after{
+    position: absolute;
+    content: "-";
+    font-size: 15px;
+    color: #FB8C00;
+    right: 14px;
+}

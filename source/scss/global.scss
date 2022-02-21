@@ -1,9 +1,7 @@
 *{
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
-
 *{
     box-sizing: content-box;
 }
@@ -13,3 +11,8 @@
 }
 ul li{list-style: none;}
 a {text-decoration: none;}
+
+::-webkit-input-placeholder{
+    padding-left: 24px;
+    padding-top: 15px;
+  }

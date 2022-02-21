@@ -5,65 +5,392 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D-PRINT</title>
+    <link rel="stylesheet" href="css/style.min.CSS">
 </head>
 <body>
     <header class="header">
         <div class="header-wrapper">
-            <a class="logo header__logo" href="index.html">
-                <img class="logo__img" src="./img/index/logo.png" alt="logo">
+                <a class="logo header__logo" href="index.html">
+                    <img class="logo__img" src="./img/index/logo.png" alt="logo">
+                </a>
+                <nav class="menu-header">
+                    <ul class="menu-headr__list">
+                        <li class="menu-header__item">
+                            <a class="menu-header__link menu__header-link--active" href="printing.html">3D-печать</a>
+                        </li>
+                        <li class="menu-header__item">
+                            <a class="menu-header__link" href="modeling.html">3D-моделирование </a>
+                        </li>
+                        <li class="menu-header__item">
+                            <a class="menu-header__link"  href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="button-header">
+                    <button class="button__print">Рассчитать стоимость</button>
+                 </div>           
+        </div>
+    <main class="main">
+        <section class="print">
+            <div class="print-wrapper">
+                <h1 class="title print__title"><span>3D</span>-печать</h1>
+                <div class="print-text">
+                    <p class="print-text__paragraph">Предлагаем услуги 3D-печати для производства прототипов или готовых изделий любой формы, цвета и прочности. Готовы производить как единичные экземпляры, так и целые партии для мелких и больших производств.</p>
+                <div class="print-technology">
+                    <p class="print-technology__text">В нашей студии используются две основных технологии печати:</p>
+                    <details class="print-technology__item">
+                        <summary class="print-technology__title">FDM</summary>
+                        <p class="print-technology__text print-technology__close">Печать методом аддитивного производства: расплавленный пластик (или другой филамент) наносится слой за слоем для построения объекта. Для создания изделий из широкого спектра материалов с различными характеристиками и свойствами. </p>
+                    </details>
+                    <details class="print-technology__item">
+                        <summary class="print-technology__title" > SLA</summary>
+                        <p class="print-technology__text print-technology__close"> Печать методом аддитивного производства: расплавленный пластик (или другой филамент) наносится слой за слоем для построения объекта. Для создания изделий из широкого спектра материалов с различными характеристиками и свойствами.</p>
+                    </details>
+                    <p class="print-technology__text">Благодаря высокой точности проработки и качеству материалов можем быть полезны для целого ряда отраслей: промышленных стартапов, автомобильного производства, сферы архитектуры и медицины, сувениров и произведений искусства.</p>    
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="work-examples">
+            <div class="examples-wrapper">
+                <h1 class="title examples__title">Примеры работ</h1>
+                <ul class="examples-gallery">
+                    <li class="examples__item">
+                        <img class="examples__img" src="./img/index/printone.png" alt="" width="470" height="370">
+                        <h2 class="examples__subtitle">Промышленные прототипы</h2>
+                        <p class="examples__text">Технология: FDM</p>
+                    </li>
+                    <li class="examples__item">
+                        <img class="examples__img" src="./img/index/printtwo.png" alt="" width="470" height="370" >
+                        <h2 class="examples__subtitle">Архитектурные макеты</h2>
+                        <p class="examples__text">Технология: SLA</p>
+                    </li>
+                    <li class="examples__item">
+                        <img class="examples__img" src="./img/index/printthree.png" alt="" width="400" height="370">
+                        <h2 class="examples__subtitle">Ювелирные изделия</h2>
+                        <p class="examples__text">Технология: SLA</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="benefits-wrapper">
+                <ul class="benefits-list">
+                    <li class="benefits-list__item benefits-list__first">
+                        <h1 class="title behefits-list__title">Наши преимущества</h1>
+                    </li>
+                    <li class="benefits-list__item benefits-list__box">
+                        <h2 class="benefits-list__subtitle">Полный спектр услуг</h2>
+                        <p class="benefits-list__text">3D-моделирование, печать изделий, постобработка</p>
+                    </li>
+                    <li class="benefits-list__item benefits-list__box">
+                        <h2 class="benefits-list__subtitle">Высокая точность</h2>
+                        <p class="benefits-list__text">От 20 до 300 микрон</p>
+                    </li>
+                    <li class="benefits-list__item benefits-list__box">
+                        <h2 class="benefits-list__subtitle">Производство тиражами</h2>
+                        <p class="benefits-list__text">Печатаем в количестве от 1 до 1000 штук</p>
+                    </li>
+                    <li class="benefits-list__item benefits-list__box">
+                        <h2 class="benefits-list__subtitle">Скорость выполнения</h2>
+                        <p class="benefits-list__text">На производство изделий уходит от 1 до 3 дней</p>
+                    </li>
+                    <li class="benefits-list__item benefits-list__box">
+                        <h2 class="benefits-list__subtitle">Доставка по всей Украине</h2>
+                        <p class="benefits-list__text">Осуществляем доставку Новой Почтой</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="work">
+            <div class="work-wrapper">   
+               <h2 class="title work__title">Как мы работаем</h2>
+               <div class="work-container">
+                   <div class="work-container__picture">
+                       <img class="work-container__img" src="./img/index/people.png" alt="" width="727" height="608">    
+                   </div>
+                   <ul class="work-list"> 
+                       <li class="work-list__item">
+                           <span class="work-list__namber ">01</span>
+                           <p class="work-list__text">Составление заявки на просчёт стоимости и сроков</p> 
+                       </li>
+                       <li class="work-list__item">
+                           <span class="work-list__namber ">02</span>
+                           <p class="work-list__text">Предоплата работы</p>
+                       </li>
+                       <li class="work-list__item">
+                           <span class="work-list__namber ">03</span>
+                           <p class="work-list__text"> Создание и согласование 3D-модели</p> 
+                       </li>
+                       <li class="work-list__item">
+                           <span class="work-list__namber ">04</span>
+                           <p class="work-list__text">Предоплата работы</p>
+                       </li>
+                       <li class="work-list__item">
+                           <span class="work-list__namber ">05</span>
+                           <p class="work-list__text">Отправка клиенту после оплаты остатка</p> 
+                       </li>            
+                   </ul>                
+               </div>
+       </div>   
+   </section>   
+   <section class="printing-prices">
+       <div class="printing-wrapper">
+           <div class="printing-link">
+               <a class="printing-link__item" href="">FDM</a>
+               <a class="printing-link__item" href="">SLA</a>
+           </div>
+           <p class="printing-wrapper__subtitle">Метод послойного наплавления, применяется для широкого спектра материалов.</p>
+           <div class="printing-table">
+               <div class="printing-table__item">
+                   <p class="printing-table__subtitle">Материал/Высота слоя</p>
+                   <p class="printing-table__text">Стандартные (ABS, PLA)</p>
+                   <p class="printing-table__text">Высокопрочные и ударостойкие </p>
+                   <p class="printing-table__text">Гибкие и резиноподобные</p>
+                   <p class="printing-table__text">Декоративные и специальные</p>
+               </div>
+               <div class="printing-table__item">
+                <p class="printing-table__subtitle">Стандартное качество 
+                    300 микрон</p>
+                <p class="printing-table__number">от 4 грн/грамм</p>
+                <p class="printing-table__number">от 4,2 грн/грамм</p>
+                <p class="printing-table__number">от 5,5 грн/грамм</p>
+                <p class="printing-table__number" >от 4,5 грн/грамм</p>
+            </div>
+            <div class="printing-table__item">
+                <p class="printing-table__subtitle">Оптимальное качество 
+                    200 микрон</p>
+                <p class="printing-table__number">от 5,6 грн/грамм</p>
+                <p class="printing-table__number">от 5,8 грн/грамм</p>
+                <p class="printing-table__number">от 7,1 грн/грамм</p>
+                <p class="printing-table__number" >от 6,1 грн/грамм</p>
+            </div>
+            <div class="printing-table__item">
+                <p class="printing-table__subtitle">Высокое качество 
+                    100 микрон</p>
+                <p class="printing-table__number">от 8,9 грн/грамм</p>
+                <p class="printing-table__number">от 8,9 грн/грамм</p>
+                <p class="printing-table__number">от 10,4 грн/грамм</p>
+                <p class="printing-table__number" >от 9,4 грн/грамм</p>
+            </div>
+           </div>
+       </div>
+   </section>  
+   <section class="price">    
+    <div class="price-wrapper"> 
+        <h2 class="title price__title">Рассчитать стоимость <span>3D</span>-печати</h2>
+        <div class="parameters-block">
+            <div class="parameters"> 
+             <div class="parameters-link">
+                 <a class="parameters-link__item" href="">Материалы</a>
+                 <a class="parameters-link__item parameters__link" href="">Принтеры</a>
+                 </div>        
+                      <ul class="parameters__list">
+                          <li class="parameters__list-item">
+                             <details class="parameters__list-text">
+                                 <summary class="parameters__list-subtext">ABS PRO (FDM)</summary>
+                                 <p class="parameters__list-paragraph">ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                             </details>
+                          </li>
+                          <li class="parameters__list-item">
+                             <details class="parameters__list-text">
+                                 <summary class="parameters__list-subtext">PLA (FDM)</summary>
+                                 <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                             </details>
+                          </li>
+                          <li class="parameters__list-item">
+                             <details class="parameters__list-text">
+                                 <summary class="parameters__list-subtext">ELASTAN (FDM)</summary>
+                                 <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                             </details>
+                          </li>
+                          <li class="parameters__list-item">
+                             <details class="parameters__list-text">
+                                 <summary class="parameters__list-subtext">COPET (FDM)</summary>
+                                 <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                             </details>
+                          </li>
+                          <li class="parameters__list-item">
+                             <details class="parameters__list-text">
+                                 <summary class="parameters__list-subtext">NYLON CARBON (FDM)</summary>
+                                 <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                             </details>
+                          </li>
+                          <li class="parameters__list-item">
+                             <details class="parameters__list-text">
+                                 <summary class="parameters__list-subtext">TANGO (POLYJET)</summary>
+                                 <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                             </details>
+                          </li>
+                          <li class="parameters__list-item">
+                             <details class="parameters__list-text">
+                                 <summary class="parameters__list-subtext">VERO WHITE (POLYJET)</summary>
+                                 <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                             </details>
+                          </li>
+                          <li class="parameters__list-item">
+                             <details class="parameters__list-text">
+                                 <summary class="parameters__list-subtext">VERO WHITE (POLYJET)</summary>
+                                 <p class="parameters__list-paragraph"> ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом.</p>
+                             </details>
+                          </li>
+                          <li class="parameters__list-item">
+                             <details class="parameters__list-text">
+                                 <summary class="parameters__list-subtext">VERO CLEAR (POLYJET)</summary>
+                                 <p class="parameters__list-paragraph">ABS-пластик - ударопрочная техническая термопластическая смола на основ сополимера крилонитрила с бутадиеном и стиролом. </p>
+                             </details>
+                          </li>      
+                     </ul>      
+            </div>                      
+     <div class="form-contents">
+         <div class="contents-first"> 
+             <h1 class="contents-title contents-first__title">Шаг 1 из 3</h1>
+             <form class="" action="#">
+                 <div class="sent"> 
+                     <p class="sent-input"> 
+                         <input class="sent-input__file" type="file" name="infor">
+                     </p>
+                     <p class="sent__text">Кликните, чтобы прикрепить 3D модель или фото</p> 
+                 </div>                    
+             <div class="contents-parameters">
+                 <div>
+                     <p class="contents-parameters__text sent-input__paragraph">Допустимые расширения:</p>
+                     <p class=" contents-parameters__text ">Максимальный размер файла:</p>
+                 </div>
+                 <div>
+                     <p class="contents-parameters__text sent-input__text"> .jpg, .jpeg, .png, .gif, .pdf, .psd, .ai, .max, .cdr, .3ds, .stl, .igs, .model, .mxp, .obj, .wrl, .3dm, .fbx, .matpart, .matamx, .zip, .rar, .7z, .skp, .dae, .ply, .magics, .mgx, .x3d, .x3dv, .3mf, .stp, .step, .prt, .zpr</p>
+                     <p class="contents-parameters__text">10 Мб</p>
+                 </div>
+             </div>
+            <div class="add-input">
+                <textarea class="add-input__link" name="link"></textarea>
+            </div>
+            <div class="form-button">
+                <button class="button-form form-button__back">Назад</button>
+                <button class="button-form form-button__next">Далее</button>
+            </div>
+         </form>
+         </div>  
+         <div class="contents-second">
+             <h1 class="contents-title contents-second__title">Шаг 2 из 3 </h1> 
+             <form action="">
+                 <h2 class="content-sutitle contents-second__subtitle">Введите размеры фигуры </h2>
+                 <div class="parameters-second">
+                     <div class="parameters-input"> 
+                        <label class="parameters-input__name" for="">Ширина, мм 
+                            <input class="parameters-input__numbers" type="text">
+                        </label>
+                        <label class="parameters-input__name" for="">Высота, мм
+                           <input class="parameters-input__numbers" type="text">
+                       </label>
+                       <label class="parameters-input__name" for="">Длина, мм
+                           <input class="parameters-input__numbers" type="text">
+                       </label>
+                     </div>
+                     <div class="parameters-input">
+                            <input class="parameters-input__text" type="text" placeholder="Количество">
+                           <input class="parameters-input__text" type="text" placeholder="Цвет">
+                     </div>               
+                 </div>
+                 <div class="form-button">
+                    <button class="button-form form-button__back">Назад</button>
+                    <button class="button-form form-button__next">Далее</button>
+                </div>
+             </form>  
+        </div>  
+         <div class="contents-third">
+             <form action="">
+             <div>
+                 <h1 class="contents-title contents-third__title">Шаг 3 из 3</h1>
+                 <h2 class="content-sutitle contents-third__subtitle"> Оставьте ваши данные </h2>
+                 <div class="input-third">
+                     <input class="input-third__text" type="text" name="" value="" placeholder="Ваше имя">
+                     <input class="input-third__text"  type="tel" name="" value="" placeholder="Телефон">
+                 </div>
+             </div>
+             <div class="form-button">
+                <button class="button-form form-button__back">Назад</button>
+                <button class="button-form form-button__next">Далее</button>
+            </div>
+        </form>
+         </div>   
+         <div class="contents-finish">
+             <form action="">
+                 <div class="finish-page">
+                     <h1 class="finish-subtitle"> Спасибо за заявку</h1>
+                     <p class="finish-text">Скоро наш менеджер свяжется с вами и уточнит стоимость вашего изделия</p>
+                     <button class="button-form form-button__back">Назад</button>
+                 </div>
+             </form>
+         </div>        
+     </div>  
+ </div>     
+    </div>               
+</section> 
+
+<section class="question-section">
+    <div class="question-wrapper"> 
+            <div class="question-text">
+                <h2 class="title question-text__title">Остались вопросы?</h2>
+                <p class="question-text__paragraph" >Оформите заявку на сайте и мы свяжемся с вами в ближайшее время.</p>
+            </div>        
+            <form class="information-form" action="#">
+                <div >
+                    <div class="information-input"> 
+                    <input class="question-input information-input__name" type="text" name="" value="" placeholder="Имя">
+                    <input class="question-input information-input__tel " type="tel" name="" value="" placeholder="Ваш телефон">   
+                    </div>        
+                    <textarea class="information-input__write" name="text" placeholder="Ваш вопрос"></textarea>    
+                </div>                    
+            <div class="question-agreement">
+                <button class="question-agreement__button" type="submit">Отправить</button>
+                <p class="question-agreement__text">Нажимая на кнопку, вы соглашаетесь с <a class="question-agreement-link" href="">Политикой конфиденциальности</a> </p>
+            </div>
+        </form>
+    </div> 
+</section>              
+    </main>
+    <footer class="footer">
+    <div class="footer-wrapper">
+            <div class="footer-navigation">  
+             <a class="logo footer-navigation__logo" href="index.html">
+                <img class="logo__img"src="./img/index/logo.png" alt="logo">
             </a>
-            <nav class=" menu header__menu">
-                <ul class="menu__headr-list">
-                    <li class="menu__header-item">
-                        <a class="menu__header-link menu__header-link--active" href="printing.html">3D-печать</a>
+            <nav class=" menu-footer">
+                <ul class="menu-footer__list">
+                    <li class="menu-footer__item">
+                        <a class="menu-footer__link" href="printing.html">3D-печать</a>
                     </li>
-                    <li class="menu__header-item">
-                        <a class="menu__header-link" href="modeling.html">3D-моделирование </a>
+                    <li class="menu-footer__item">
+                        <a class="menu-footer__link" href="modeling.html">3D-моделирование </a>
                     </li>
-                    <li class="menu__header-item">
-                        <a class="menu__header-link"  href="contacts.html">Контакты</a>
+                    <li class="menu-footer__item">
+                        <a class="menu-footer__link"  href="contacts.html">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <div class="button">
-                <button class="button__print">Рассчитать стоимость</button>
-             </div>    
-        </div>       
-    </header>
-    <main class="main">
-        <div class="main-wrapper">
-            <section class="printing">
-                <h1 class="title printing__title"> <span>3D</span> -печать</h1>
-                <div>
-                    <p>Предлагаем услуги 3D-печати для производства прототипов или готовых изделий любой формы, цвета и прочности. Готовы производить как единичные экземпляры, так и целые партии для мелких и больших производств.</p>      
-                <div>
-                    <p>В нашей студии используются две основных технологии печати:</p>
-                    <ul>
-                        <li>
-                            <details>
-                                <summary>FDM </summary>
-                                <p>Печать методом аддитивного производства: расплавленный пластик (или другой филамент) наносится слой за слоем для построения объекта. Для создания изделий из широкого спектра материалов с различными характеристиками и свойствами.</p>
-                            </details>
-                        </li>
-                        <li>
-                            <details>
-                                <summary>  SLA </summary>
-                                <p>Печать методом аддитивного производства: расплавленный пластик (или другой филамент) наносится слой за слоем для построения объекта. Для создания изделий из широкого спектра материалов с различными характеристиками и свойствами.</p>
-                            </details>
-                        </li>
-                    </ul>
-                    <p>Благодаря высокой точности проработки и качеству материалов можем быть полезны для целого ряда отраслей: промышленных стартапов, автомобильного производства, сферы архитектуры и медицины, сувениров и произведений искусства.</p>
-                </div>
-            </div>
-            </section>
-            <section class="gallery">
-                <div></div>
-
-            </section>
-
-
-
-        </div>
-    </main>
-</body>
+                 
+            <div class="phone">
+               <a class="phone__call" href="tel:+38 (097) 999-99-99">+38 (097) 999-99-99</a> 
+            </div>   
+               <div class="address">
+                    <p class="address__town">г. Киев, ул. Гагарина 25/68</p>
+                    <a class="address__mail" href="mailto:pochta@gmail.com">pochta@gmail.com</a>
+                    <div class="networks"> 
+                        <a  class="networks__video" href="#">
+                            <img src="./img/index/youtube.svg" alt="">
+                        </a>
+                        <a class="networks__facebook" href="#">
+                            <img src="./img/index/facebook.svg" alt="">
+                        </a>
+                    </div>                    
+                </div>       
+        </div> 
+            <div class="link-footer">
+                <a class="link-footer__item" href="#">@2021. Все права защищены</a>
+                <a class="link-footer__item link-footer__heart" href="#">Сделано в Webnauts c </a>
+            </div>    
+    </div>
+</footer>        
+</body>    
 </html>
