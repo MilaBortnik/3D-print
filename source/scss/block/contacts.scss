@@ -48,6 +48,11 @@
         padding-top: 16px;
     }
 }
+.contact-data__img{
+    background-image: url(../../img/index/maps.png);
+    width: 668px;
+    height: 527px;
+}
 .contact-information::before{
     position: absolute;
     content: "";
