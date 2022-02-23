@@ -43,6 +43,7 @@
 .networks__video{
     padding-right: 24px;
 }
+
 .address{
     text-align: end;
 }
@@ -58,7 +59,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    text-align: right;
     color: #2C2F36;
 }
 .phone__call{
@@ -67,6 +67,12 @@
     line-height: 29px;
     color: #2C2F36;
 }
+.contacts-address{
+    text-align: start;
+}
+
+
+
 .link-footer__item{
     font-weight: 500;
     font-size: 14px;

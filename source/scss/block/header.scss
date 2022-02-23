@@ -1,6 +1,9 @@
 
 .header{
-    width: 100%;  
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    content: "";
 }
 .header-wrapper{
     max-width: 1200px;

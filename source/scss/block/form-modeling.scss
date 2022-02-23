@@ -1,0 +1,55 @@
+.form-modeling{
+    width: 670px;
+    height: 635px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 68px rgba(33, 33, 33, 0.06);
+    border-radius: 35px;   
+}
+.modeling-first{
+    padding: 44px 40px;
+
+  
+}
+.modeling-first__title{
+    padding-bottom: 32px;
+}
+.modeling-data{
+    padding-bottom: 30px;
+    &__input{
+        width: 280px;
+        height: 50px;
+        background-color: #F9FAFB;
+        border-radius: 7px;
+        border: 1px solid #ECEEF1;
+
+    }
+}
+.modeling-input__text{
+    width: 590px;
+    height: 50px;
+    background-color: #F9FAFB;
+    border-radius: 7px;
+    border: 1px solid #ECEEF1;   
+}
+.modeling-model{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &__text{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2C2F36;
+    }
+    
+}
+.modeling-ininformation__wishes{
+    width: 590px;
+    height: 129px;
+    background-color: #F9FAFB;
+    border-radius: 1px solid #ECEEF1;
+    border-radius: 7px;
+    margin-bottom: 67px;
+
+}

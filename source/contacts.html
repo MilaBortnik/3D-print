@@ -5,8 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D-PRINT</title>
+    <link rel="stylesheet" href="css/style.min.CSS">
 </head>
 <body>
+    <header class="header">
+        <div class="header-wrapper">
+                <a class="logo header__logo" href="index.html">
+                    <img class="logo__img" src="./img/index/logo.png" alt="logo">
+                </a>
+                <nav class="menu-header">
+                    <ul class="menu-headr__list">
+                        <li class="menu-header__item">
+                            <a class="menu-header__link menu__header-link--active" href="printing.html">3D-печать</a>
+                        </li>
+                        <li class="menu-header__item">
+                            <a class="menu-header__link" href="modeling.html">3D-моделирование </a>
+                        </li>
+                        <li class="menu-header__item">
+                            <a class="menu-header__link"  href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="button-header">
+                    <button class="button__print">Рассчитать стоимость</button>
+                 </div>           
+        </div>
+    </header>
+    <main class="main">
+        <section class="contacts"> 
+            <h1 class="title contacts-wrapper__title">Контакты </h1>
+        <div class="contacts-wrapper"> 
+        <div class="contacts-information">
+                <div class="address contacts-address">
+                    <p class="address__town">г. Киев, ул. Гагарина 25/68</p>
+                    <a class="address__mail" href="mailto:pochta@gmail.com">pochta@gmail.com</a>
+                    <div class="networks"> 
+                        <a  class="networks__video" href="#">
+                            <img src="./img/index/youtube.svg" alt="">
+                        </a>
+                        <a class="networks__facebook" href="#">
+                            <img src="./img/index/facebook.svg" alt="">
+                        </a>
+                    </div>                    
+                </div>       
+            <div class="contact-information">
+                <h2 class="contact-information__subtitle">Свяжитесь с нами</h2>
+                    <input class="contact-information__input" type="text" placeholder="Ваше имя">
+                    <input class="contact-information__input" type="tel" placeholder="Ваш телефон">
+                <textarea class="contact-information__message" name="" placeholder="Ваше сообщение"></textarea>
+                <div class="contact-button">
+                     <button class="button-sent" type="submit">Напишите нам</button>
+                </div>
+                <p class="question-agreement__text contact-information__text ">Нажимая на кнопку, вы соглашаетесь с <a class="question-agreement__link" href="">Политикой конфиденциальности</a> </p>
+            </div>
+        </div>
+        <div>
+            <img src="./img/index/maps.png" alt="" width="568" height="527"> 
+        </div>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper">
+                <div class="footer-navigation">  
+                 <a class="logo footer-navigation__logo" href="index.html">
+                    <img class="logo__img"src="./img/index/logo.png" alt="logo">
+                </a>
+                <nav class=" menu-footer">
+                    <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a class="menu-footer__link" href="printing.html">3D-печать</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a class="menu-footer__link" href="modeling.html">3D-моделирование </a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a class="menu-footer__link"  href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                     
+                <div class="phone">
+                   <a class="phone__call" href="tel:+38 (097) 999-99-99">+38 (097) 999-99-99</a> 
+                </div>   
+                   <div class="address">
+                        <p class="address__town">г. Киев, ул. Гагарина 25/68</p>
+                        <a class="address__mail" href="mailto:pochta@gmail.com">pochta@gmail.com</a>
+                        <div class="networks"> 
+                            <a  class="networks__video" href="#">
+                                <img src="./img/index/youtube.svg" alt="">
+                            </a>
+                            <a class="networks__facebook" href="#">
+                                <img src="./img/index/facebook.svg" alt="">
+                            </a>
+                        </div>                    
+                    </div>       
+            </div> 
+                <div class="link-footer">
+                    <a class="link-footer__item" href="#">@2021. Все права защищены</a>
+                    <a class="link-footer__item link-footer__heart" href="#">Сделано в Webnauts c </a>
+                </div>    
+        </div>
+    </footer>        
     
 </body>
 </html>

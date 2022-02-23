@@ -56,12 +56,7 @@
 .question-agreement__button:hover{
     background-color: #2F80ED;
 }
-.question-input{
-    width: 235px;
-    height: 50px;
-    border-radius: 7px;
-    border: white;
-}
+
 .information-input__write{
     width: 500px;
     height: 109px;
@@ -78,9 +73,9 @@
     display: flex;
     justify-content: space-between;
 }
-.question-agreement-link{
+.question-agreement__link{
     color: #2F80ED;
 }
-.question-agreement-link:hover{
+.question-agreement__link:hover{
     color: #FB8C00;
 }
